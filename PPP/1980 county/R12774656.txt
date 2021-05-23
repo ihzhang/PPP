@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12774656
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1980
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Poverty Status In 1979 (White Alone)
+         Universe:  White Alone Population for whom poverty status is determined
+         Name:      T102
+         Variables:
+            T102_001:   White Alone Population for whom poverty status is determined:
+            T102_002:      Below poverty level
+            T102_003:      Above poverty level
+
+
+      2. Poverty Status In 1979 (Black Alone)
+         Universe:  Black Alone Population for whom poverty status is determined
+         Name:      T103
+         Variables:
+            T103_001:   Black Alone Population for whom poverty status is determined:
+            T103_002:      Below poverty level
+            T103_003:      Above poverty level
+
+
+      3. Poverty Status In 1979 (American Indian, Eskimo, and Aleut)
+         Universe:  American Indian, Eskimo, and Aleut Population for whom poverty status is determined
+         Name:      T104
+         Variables:
+            T104_001:   American Indian, Eskimo, and Aleut Population for whom poverty status is determined:
+            T104_002:      Below poverty level
+            T104_003:      Above poverty level
+
+
+      4. Poverty Status In 1979 (Population Of Spanish Origin)
+         Universe:  Spanish Origin Population for whom poverty status is determined
+         Name:      T107
+         Variables:
+            T107_001:   Spanish Origin Population for whom poverty status is determined:
+            T107_002:      Below poverty level
+            T107_003:      Above poverty level
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      Name:           Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+      QName:          Qualifying Name
+      GISJOIN:        NHGIS GIS Join Field
+      GISJOIN2:       NHGIS GISJoin2 Field
+      SUMLEV:         Summary Level
+      FIPS:           FIPS
+      STATE:          FIPS State Code
+      COUNTY:         FIPS County Code
+      T102_001:       White Alone Population for whom poverty status is determined
+      T102_002:       White Alone Population for whom poverty status is determined: Below poverty level
+      T102_003:       White Alone Population for whom poverty status is determined: Above poverty level
+      T103_001:       Black Alone Population for whom poverty status is determined
+      T103_002:       Black Alone Population for whom poverty status is determined: Below poverty level
+      T103_003:       Black Alone Population for whom poverty status is determined: Above poverty level
+      T104_001:       American Indian, Eskimo, and Aleut Population for whom poverty status is determined
+      T104_002:       American Indian, Eskimo, and Aleut Population for whom poverty status is determined: Below poverty level
+      T104_003:       American Indian, Eskimo, and Aleut Population for whom poverty status is determined: Above poverty level
+      T107_001:       Spanish Origin Population for whom poverty status is determined
+      T107_002:       Spanish Origin Population for whom poverty status is determined: Below poverty level
+      T107_003:       Spanish Origin Population for whom poverty status is determined: Above poverty level
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12774656
+
+If you have any questions contact info@socialexplorer.com

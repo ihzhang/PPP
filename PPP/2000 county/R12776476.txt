@@ -1,0 +1,519 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12776476
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2000
+Dataset:          Social Explorer Tables (made from SF1 and SF3)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population
+
+
+      2. Population Density (per sq. mile)
+         Universe:  Total Population
+         Name:      T3
+         Variables:
+            T003_002:   Total Population
+            T003_001:   Population Density (per sq. mile)
+            T003_003:   Area (Land)
+
+
+      3. Age (Short Version)
+         Universe:  Population
+         Name:      T9
+         Variables:
+            T009_001:   Population:
+            T009_002:      Under 18 years
+            T009_003:      18 to 34 years
+            T009_004:      35 to 64 years
+            T009_005:      65 and over
+
+
+      4. Hispanic Or Latino By Race
+         Universe:  Total Population
+         Name:      T15
+         Variables:
+            T015_001:   Total Population
+            T015_002:      Not Hispanic or Latino:
+            T015_003:         White Alone
+            T015_004:         Black or African American Alone
+            T015_005:         American Indian and Alaska Native Alone
+            T015_006:         Asian Alone
+            T015_007:         Native Hawaiian and Other Pacific Islander Alone
+            T015_008:         Some other race Alone
+            T015_009:         Two or more races
+            T015_010:      Hispanic or Latino:
+            T015_011:         White Alone
+            T015_012:         Black or African American Alone
+            T015_013:         American Indian and Alaska Native Alone
+            T015_014:         Asian Alone
+            T015_015:         Native Hawaiian and Other Pacific Islander Alone
+            T015_016:         Some other race Alone
+            T015_017:         Two or more races
+
+
+      5. Households By Household Type
+         Universe:  Households
+         Name:      T20
+         Variables:
+            T020_001:   Households:
+            T020_002:      Family households:
+            T020_003:         Married-couple family
+            T020_004:         Other family:
+            T020_005:            Male householder, no wife present
+            T020_006:            Female householder, no husband present
+            T020_007:      Nonfamily households:
+            T020_008:         Male householder
+            T020_009:         Female householder
+
+
+      6. Group Quarters Population By Group Quarters Type
+         Universe:  Total Population
+         Name:      T39
+         Variables:
+            T039_001:   Total Population:
+            T039_002:      Population in group quarters:
+            T039_003:         Institutionalized Population:
+            T039_004:            Correctional institutions
+            T039_005:            Nursing homes
+            T039_006:            Other institutions
+            T039_007:         Noninstitutionalized Population:
+            T039_008:            College dormitories (includes college quarters off campus)
+            T039_009:            Military quarters
+            T039_010:            Other noninstitutional group quarters
+            T039_011:      Population NOT in group quarters
+
+
+      7. Highest Educational Attainment For Population 25 Years And Over
+         Universe:  Population 25 years and over
+         Name:      T43
+         Variables:
+            T043_001:   Population 25 years and over:
+            T043_002:      Less Than High School
+            T043_003:      High School Graduate or more (includes equivalency)
+            T043_004:      Some college or more
+            T043_005:      Bachelor's degree or more
+            T043_006:      Master's degree or more
+            T043_008:      Professional school degree or more
+            T043_007:      Doctorate degree
+
+
+      8. Unemployment Rate For Civilian Population In Labor Force 16 Years And Over
+         Universe:  Civilian Population In Labor Force 16 Years And Over
+         Name:      T73
+         Variables:
+            T073_001:   Civilian Population In Labor Force 16 Years And Over:
+            T073_002:      Employed
+            T073_003:      Unemployed
+
+
+      9. Unemployment Rate For Civilian Male Population
+         Universe:  Civilian Male In Labor Force 16 Years And Over
+         Name:      T74
+         Variables:
+            T074_001:   Civilian Male In Labor Force 16 Years And Over:
+            T074_002:      Employed
+            T074_003:      Unemployed
+
+
+      10. Unemployment Rate For Civilian Female Population
+          Universe:  Civilian Female In Labor Force 16 Years And Over
+          Name:      T75
+          Variables:
+             T075_001:   Civilian Female In Labor Force 16 Years And Over:
+             T075_002:      Employed
+             T075_003:      Unemployed
+
+
+      11. Unemployment Rate For The Population 16 Years And Over (White Alone)
+          Universe:  White 16 Years Old In Civilian Labor Force
+          Name:      T76
+          Variables:
+             T076_001:   White 16 Years Old In Civilian Labor Force:
+             T076_002:      Employed
+             T076_003:      Unemployed
+
+
+      12. Unemployment Rate For The Population 16 Years And Over (Black Or African American Alone)
+          Universe:  Black or African American 16 Years Old In Civilian Labor Force
+          Name:      T77
+          Variables:
+             T077_001:   Black or African American 16 Years Old In Civilian Labor Force:
+             T077_002:      Employed
+             T077_003:      Unemployed
+
+
+      13. Unemployment Rate For The Population 16 Years And Over (American Indian And Alaska Native Alone)
+          Universe:  American Indian and Alaska Native 16 Years Old In Civilian Labor Force
+          Name:      T78
+          Variables:
+             T078_001:   American Indian and Alaska Native 16 Years Old In Civilian Labor Force:
+             T078_002:      Employed
+             T078_003:      Unemployed
+
+
+      14. Unemployment Rate For The Population 16 Years And Over (Hispanic Or Latino)
+          Universe:  Hispanic or Latino 16 Years Old In Civilian Labor Force
+          Name:      T83
+          Variables:
+             T083_001:   Hispanic or Latino 16 Years Old In Civilian Labor Force:
+             T083_002:      Employed
+             T083_003:      Unemployed
+
+
+      15. Median Household Income In <DollarYear> Dollars
+          Universe:  Households
+          Name:      T93
+          Variables:
+             T093_001:   Median household income In 1999 Dollars
+
+
+      16. Tenure
+          Universe:  Occupied Housing Units
+          Name:      T156
+          Variables:
+             T156_001:   Occupied Housing Units:
+             T156_002:      Owner Occupied
+             T156_003:      Renter Occupied
+
+
+      17. Median House Value For All Owner-Occupied Housing Units
+          Universe:  Owner-occupied housing units
+          Name:      T163
+          Variables:
+             T163_001:   Median value
+
+
+      18. Poverty Status In 1999 For Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status is determined
+          Name:      T180
+          Variables:
+             T180_001:   Population Under 18 Years of Age for whom poverty status is determined:
+             T180_002:      Living in Poverty
+             T180_003:      Not Living in Poverty
+
+
+      19. Poverty Status By Sex
+          Universe:  Population for whom poverty status is determined
+          Name:      T183
+          Variables:
+             T183_001:   Male Population:
+             T183_002:      Below poverty level
+             T183_003:      At or above poverty level
+             T183_004:   Female Population:
+             T183_005:      Below poverty level
+             T183_006:      At or above poverty level
+
+
+      20. Poverty Status In 1999 (White Alone)
+          Universe:  White Alone Population for whom poverty status is determined
+          Name:      T186
+          Variables:
+             T186_001:   White Alone Population for whom poverty status is determined:
+             T186_002:      Income in 1999 below poverty level
+             T186_003:      Income in 1999 at or above poverty level
+
+
+      21. Poverty Status In 1999 (Black Or African American Alone)
+          Universe:  Black or African American Alone Population for whom poverty status is determined
+          Name:      T187
+          Variables:
+             T187_001:   Black or African American Alone Population for whom poverty status is determined:
+             T187_002:      Income in 1999 below poverty level
+             T187_003:      Income in 1999 at or above poverty level
+
+
+      22. Poverty Status In 1999 (Native Hawaiian And Other Pacific Islander Alone)
+          Universe:  Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined
+          Name:      T190
+          Variables:
+             T190_001:   Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined:
+             T190_002:      Income in 1999 below poverty level
+             T190_003:      Income in 1999 at or above poverty level
+
+
+      23. Poverty Status In 1999 (Hispanic Or Latino)
+          Universe:  Hispanic or Latino Population for whom poverty status is determined
+          Name:      T193
+          Variables:
+             T193_001:   Hispanic or Latino Population for whom poverty status is determined:
+             T193_002:      Income in 1999 below poverty level
+             T193_003:      Income in 1999 at or above poverty level
+
+
+      24. Nativity By Citizenship Status
+          Universe:  Total Population
+          Name:      T201
+          Variables:
+             T201_001:   Total Population:
+             T201_002:      Native Born
+             T201_003:      Foreign Born:
+             T201_004:         Naturalized Citizen
+             T201_005:         Not a Citizen
+
+
+
+
+
+Survey:           Census 2000
+Dataset:          Summary File 3 (SF 3) - Sample Data
+Tables:
+
+      1. Public Assistance Income In 1999 For Households
+         Universe:  Households
+         Name:      P64
+         Variables:
+            P064001:   Total
+            P064002:      With public assistance income
+            P064003:      No public assistance income
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      STATE:          State (FIPS)
+      COUNTY:         County
+      T001_001:       Total Population
+      T003_002:       Total Population
+      T003_001:       Population Density (per sq. mile)
+      T003_003:       Area (Land)
+      T009_001:       Population
+      T009_002:       Under 18 years
+      T009_003:       18 to 34 years
+      T009_004:       35 to 64 years
+      T009_005:       65 and over
+      PCT_T009_002:   % Under 18 years
+      PCT_T009_003:   % 18 to 34 years
+      PCT_T009_004:   % 35 to 64 years
+      PCT_T009_005:   % 65 and over
+      T015_001:       Total Population
+      T015_002:       Not Hispanic or Latino
+      T015_003:       Not Hispanic or Latino: White Alone
+      T015_004:       Not Hispanic or Latino: Black or African American Alone
+      T015_005:       Not Hispanic or Latino: American Indian and Alaska Native Alone
+      T015_006:       Not Hispanic or Latino: Asian Alone
+      T015_007:       Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      T015_008:       Not Hispanic or Latino: Some other race Alone
+      T015_009:       Not Hispanic or Latino: Two or more races
+      T015_010:       Hispanic or Latino
+      T015_011:       Hispanic or Latino: White Alone
+      T015_012:       Hispanic or Latino: Black or African American Alone
+      T015_013:       Hispanic or Latino: American Indian and Alaska Native Alone
+      T015_014:       Hispanic or Latino: Asian Alone
+      T015_015:       Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      T015_016:       Hispanic or Latino: Some other race Alone
+      T015_017:       Hispanic or Latino: Two or more races
+      PCT_T015_002:   % Not Hispanic or Latino
+      PCT_T015_003:   % Not Hispanic or Latino: White Alone
+      PCT_T015_004:   % Not Hispanic or Latino: Black or African American Alone
+      PCT_T015_005:   % Not Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_T015_006:   % Not Hispanic or Latino: Asian Alone
+      PCT_T015_007:   % Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_T015_008:   % Not Hispanic or Latino: Some other race Alone
+      PCT_T015_009:   % Not Hispanic or Latino: Two or more races
+      PCT_T015_010:   % Hispanic or Latino
+      PCT_T015_011:   % Hispanic or Latino: White Alone
+      PCT_T015_012:   % Hispanic or Latino: Black or African American Alone
+      PCT_T015_013:   % Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_T015_014:   % Hispanic or Latino: Asian Alone
+      PCT_T015_015:   % Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_T015_016:   % Hispanic or Latino: Some other race Alone
+      PCT_T015_017:   % Hispanic or Latino: Two or more races
+      T020_001:       Households
+      T020_002:       Family households
+      T020_003:       Family households: Married-couple family
+      T020_004:       Family households: Other family
+      T020_005:       Family households: Other family: Male householder, no wife present
+      T020_006:       Family households: Other family: Female householder, no husband present
+      T020_007:       Nonfamily households
+      T020_008:       Nonfamily households: Male householder
+      T020_009:       Nonfamily households: Female householder
+      PCT_T020_002:   % Family households
+      PCT_T020_003:   % Family households: Married-couple family
+      PCT_T020_004:   % Family households: Other family
+      PCT_T020_005:   % Family households: Other family: Male householder, no wife present
+      PCT_T020_006:   % Family households: Other family: Female householder, no husband present
+      PCT_T020_007:   % Nonfamily households
+      PCT_T020_008:   % Nonfamily households: Male householder
+      PCT_T020_009:   % Nonfamily households: Female householder
+      T039_001:       Total Population
+      T039_002:       Population in group quarters
+      T039_003:       Population in group quarters: Institutionalized Population
+      T039_004:       Population in group quarters: Institutionalized Population: Correctional institutions
+      T039_005:       Population in group quarters: Institutionalized Population: Nursing homes
+      T039_006:       Population in group quarters: Institutionalized Population: Other institutions
+      T039_007:       Population in group quarters: Noninstitutionalized Population
+      T039_008:       Population in group quarters: Noninstitutionalized Population: College dormitories (includes college quarters off campus)
+      T039_009:       Population in group quarters: Noninstitutionalized Population: Military quarters
+      T039_010:       Population in group quarters: Noninstitutionalized Population: Other noninstitutional group quarters
+      T039_011:       Population NOT in group quarters
+      PCT_T039_002:   % Population in group quarters
+      PCT_T039_003:   % Population in group quarters: Institutionalized Population
+      PCT_T039_004:   % Population in group quarters: Institutionalized Population: Correctional institutions
+      PCT_T039_005:   % Population in group quarters: Institutionalized Population: Nursing homes
+      PCT_T039_006:   % Population in group quarters: Institutionalized Population: Other institutions
+      PCT_T039_007:   % Population in group quarters: Noninstitutionalized Population
+      PCT_T039_008:   % Population in group quarters: Noninstitutionalized Population: College dormitories (includes college quarters off campus)
+      PCT_T039_009:   % Population in group quarters: Noninstitutionalized Population: Military quarters
+      PCT_T039_010:   % Population in group quarters: Noninstitutionalized Population: Other noninstitutional group quarters
+      PCT_T039_011:   % Population NOT in group quarters
+      T043_001:       Population 25 years and over
+      T043_002:       Population 25 years and over: Less Than High School
+      T043_003:       Population 25 years and over: High School Graduate or more (includes equivalency)
+      T043_004:       Population 25 years and over: Some college or more
+      T043_005:       Population 25 years and over: Bachelor's degree or more
+      T043_006:       Population 25 years and over: Master's degree or more
+      T043_008:       Population 25 years and over: Professional school degree or more
+      T043_007:       Population 25 years and over: Doctorate degree
+      PCT_T043_002:   % Population 25 years and over: Less Than High School
+      PCT_T043_003:   % Population 25 years and over: High School Graduate or more (includes equivalency)
+      PCT_T043_004:   % Population 25 years and over: Some college or more
+      PCT_T043_005:   % Population 25 years and over: Bachelor's degree or more
+      PCT_T043_006:   % Population 25 years and over: Master's degree or more
+      PCT_T043_008:   % Population 25 years and over: Professional school degree or more
+      PCT_T043_007:   % Population 25 years and over: Doctorate degree
+      T073_001:       Civilian Population In Labor Force 16 Years And Over
+      T073_002:       Civilian Population In Labor Force 16 Years And Over: Employed
+      T073_003:       Civilian Population In Labor Force 16 Years And Over: Unemployed
+      PCT_T073_002:   % Civilian Population In Labor Force 16 Years And Over: Employed
+      PCT_T073_003:   % Civilian Population In Labor Force 16 Years And Over: Unemployed
+      T074_001:       Civilian Male In Labor Force 16 Years And Over
+      T074_002:       Civilian Male In Labor Force 16 Years And Over: Employed
+      T074_003:       Civilian Male In Labor Force 16 Years And Over: Unemployed
+      PCT_T074_002:   % Civilian Male In Labor Force 16 Years And Over: Employed
+      PCT_T074_003:   % Civilian Male In Labor Force 16 Years And Over: Unemployed
+      T075_001:       Civilian Female In Labor Force 16 Years And Over
+      T075_002:       Civilian Female In Labor Force 16 Years And Over: Employed
+      T075_003:       Civilian Female In Labor Force 16 Years And Over: Unemployed
+      PCT_T075_002:   % Civilian Female In Labor Force 16 Years And Over: Employed
+      PCT_T075_003:   % Civilian Female In Labor Force 16 Years And Over: Unemployed
+      T076_001:       White 16 Years Old In Civilian Labor Force
+      T076_002:       White 16 Years Old In Civilian Labor Force: Employed
+      T076_003:       White 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T076_002:   % White 16 Years Old In Civilian Labor Force: Employed
+      PCT_T076_003:   % White 16 Years Old In Civilian Labor Force: Unemployed
+      T077_001:       Black or African American 16 Years Old In Civilian Labor Force
+      T077_002:       Black or African American 16 Years Old In Civilian Labor Force: Employed
+      T077_003:       Black or African American 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T077_002:   % Black or African American 16 Years Old In Civilian Labor Force: Employed
+      PCT_T077_003:   % Black or African American 16 Years Old In Civilian Labor Force: Unemployed
+      T078_001:       American Indian and Alaska Native 16 Years Old In Civilian Labor Force
+      T078_002:       American Indian and Alaska Native 16 Years Old In Civilian Labor Force: Employed
+      T078_003:       American Indian and Alaska Native 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T078_002:   % American Indian and Alaska Native 16 Years Old In Civilian Labor Force: Employed
+      PCT_T078_003:   % American Indian and Alaska Native 16 Years Old In Civilian Labor Force: Unemployed
+      T083_001:       Hispanic or Latino 16 Years Old In Civilian Labor Force
+      T083_002:       Hispanic or Latino 16 Years Old In Civilian Labor Force: Employed
+      T083_003:       Hispanic or Latino 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T083_002:   % Hispanic or Latino 16 Years Old In Civilian Labor Force: Employed
+      PCT_T083_003:   % Hispanic or Latino 16 Years Old In Civilian Labor Force: Unemployed
+      T093_001:       Median household income In 1999 Dollars
+      T156_001:       Occupied Housing Units
+      T156_002:       Occupied Housing Units: Owner Occupied
+      T156_003:       Occupied Housing Units: Renter Occupied
+      PCT_T156_002:   % Occupied Housing Units: Owner Occupied
+      PCT_T156_003:   % Occupied Housing Units: Renter Occupied
+      T163_001:       Owner-occupied housing units: Median value
+      T180_001:       Population Under 18 Years of Age for whom poverty status is determined:
+      T180_002:       Population Under 18 Years of Age for whom poverty status is determined: Living in Poverty
+      T180_003:       Population Under 18 Years of Age for whom poverty status is determined: Not Living in Poverty
+      PCT_T180_002:   % Population Under 18 Years of Age for whom poverty status is determined: Living in Poverty
+      PCT_T180_003:   % Population Under 18 Years of Age for whom poverty status is determined: Not Living in Poverty
+      T183_001:       Male Population
+      T183_002:       Male Population: Below poverty level
+      T183_003:       Male Population: At or above poverty level
+      T183_004:       Female Population
+      T183_005:       Female Population: Below poverty level
+      T183_006:       Female Population: At or above poverty level
+      PCT_T183_002:   % Male Population: Below poverty level
+      PCT_T183_003:   % Male Population: At or above poverty level
+      PCT_T183_005:   % Female Population: Below poverty level
+      PCT_T183_006:   % Female Population: At or above poverty level
+      T186_001:       White Alone Population for whom poverty status is determined
+      T186_002:       White Population for whom poverty status is determined: Income in 1999 below poverty level
+      T186_003:       White Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      PCT_T186_002:   % White Population for whom poverty status is determined: Income in 1999 below poverty level
+      PCT_T186_003:   % White Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      T187_001:       Black or African American Alone Population for whom poverty status is determined
+      T187_002:       Black or African American Population for whom poverty status is determined: Income in 1999 below poverty level
+      T187_003:       Black or African American Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      PCT_T187_002:   % Black or African American Population for whom poverty status is determined: Income in 1999 below poverty level
+      PCT_T187_003:   % Black or African American Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      T190_001:       Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined
+      T190_002:       Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined: Income in 1999 below poverty level
+      T190_003:       Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      PCT_T190_002:   % Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined: Income in 1999 below poverty level
+      PCT_T190_003:   % Native Hawaiian and Other Pacific Islander Alone Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      T193_001:       Hispanic or Latino Population for whom poverty status is determined
+      T193_002:       Hispanic or Latino Population for whom poverty status is determined: Income in 1999 below poverty level
+      T193_003:       Hispanic or Latino Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      PCT_T193_002:   % Hispanic or Latino Population for whom poverty status is determined: Income in 1999 below poverty level
+      PCT_T193_003:   % Hispanic or Latino Population for whom poverty status is determined: Income in 1999 at or above poverty level
+      T201_001:       Total Population
+      T201_002:       Native Born
+      T201_003:       Foreign Born
+      T201_004:       Foreign Born: Naturalized Citizen
+      T201_005:       Foreign Born: Not a Citizen
+      PCT_T201_002:   % Native Born
+      PCT_T201_003:   % Foreign Born
+      PCT_T201_004:   % Foreign Born: Naturalized Citizen
+      PCT_T201_005:   % Foreign Born: Not a Citizen
+      P064001:        Households
+      P064002:        Households: With public assistance income
+      P064003:        Households: No public assistance income
+      PCT_P064002:    % Households: With public assistance income
+      PCT_P064003:    % Households: No public assistance income
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12776476
+
+If you have any questions contact info@socialexplorer.com

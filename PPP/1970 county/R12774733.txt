@@ -1,0 +1,273 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12774733
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1970
+Dataset:          Social Explorer Tables (made from Count 4)
+Tables:
+
+      1. Families By Presence Of People Under 18 Years By Household Type
+         Universe:  Count of Families
+         Name:      T15
+         Variables:
+            T015_001:   Count of Families:
+            T015_002:      Own children under 18 years old present:
+            T015_003:         Husband-wife family
+            T015_004:         Other family:
+            T015_005:            Other family with male head
+            T015_006:            Other family with female head
+            T015_007:      Own children under 18 years old not present:
+            T015_008:         Husband-wife family
+            T015_009:         Other family:
+            T015_010:            Other family with male head
+            T015_011:            Other family with female head
+
+
+      2. Unemployment Rate 
+         Universe:  Civilian Population In Labor Force 16 Years And Over
+         Name:      T56
+         Variables:
+            T056_001:   Population 16 years and over In Civilian labor force:
+            T056_002:      Employed
+            T056_003:      Unemployed
+
+
+      3. Unemployment Rate For Male Population
+         Universe:  Civilian Male In Labor Force 16 Years And Over
+         Name:      T57
+         Variables:
+            T057_001:   Male 16 years and over In Civilian labor force:
+            T057_002:      Employed
+            T057_003:      Unemployed
+
+
+      4. Unemployment Rate For Female Population
+         Universe:  Civilian Female In Labor Force 16 Years And Over
+         Name:      T58
+         Variables:
+            T058_001:   Female 16 years and over In Civilian labor force:
+            T058_002:      Employed
+            T058_003:      Unemployed
+
+
+      5. Unemployment Rate For White Population
+         Universe:  White 16 Years Old In Civilian Labor Force
+         Name:      T59
+         Variables:
+            T059_001:   White Population 16 years and over In Civilian labor force:
+            T059_002:      Employed
+            T059_003:      Unemployed
+
+
+      6. Unemployment Rate For Black Population
+         Universe:  Black or African American 16 Years Old In Civilian Labor Force
+         Name:      T60
+         Variables:
+            T060_001:   Black Population 16 years and over In Civilian labor force:
+            T060_002:      Employed
+            T060_003:      Unemployed
+
+
+      7. Unemployment Rate For Spanish Population
+         Universe:  Spanish Population 16 Years Old In Civilian Labor Force
+         Name:      T62
+         Variables:
+            T062_001:   Spanish Population 16 years and over In Civilian labor force:
+            T062_002:      Employed
+            T062_003:      Unemployed
+
+
+      8. Average Family Income
+         Universe:  Count of Families
+         Name:      T85
+         Variables:
+            T085_001:   Average Family Income
+
+
+
+
+
+Survey:           Census 1970
+Dataset:          Count 4 - Original Tables - With Stratifiers
+Tables:
+
+      1. Families By Type, Presence And Age Of Own Children
+         Universe:  Count of Families
+         Name:      PT019
+         Variables:
+            PT019_001:   Count of Families:
+            PT019_002:      Family Type: Husband-wife family:
+            PT019_003:         Own children under 18 years old not present
+            PT019_004:         Own children under 6 years old:
+            PT019_005:            Present
+            PT019_006:            Not present
+            PT019_007:      Family Type: Other family with male head:
+            PT019_008:         Own children under 18 years old not present
+            PT019_009:         Own children under 18 years old present:
+            PT019_010:            Own children under 6 years old present
+            PT019_011:            Own children under 6 years old not present
+            PT019_012:      Family Type: Family with female head:
+            PT019_013:         Own children under 18 years old not present
+            PT019_014:         Own children under 18 years old present:
+            PT019_015:            Own children under 6 years old present
+            PT019_016:            Own children under 6 years old not present
+
+
+      2. White: Unrelated Individuals By Age And Poverty Status
+         Universe:  White: Count of Unrelated Individuals 14 Years Old and Over
+         Name:      PW089
+         Variables:
+            PW089_001:   White: Count of Unrelated Individuals 14 Years Old and Over:
+            PW089_002:      Above poverty level:
+            PW089_003:         Under 65 years old
+            PW089_004:         65 years old and over
+            PW089_005:      Below poverty level:
+            PW089_006:         Under 65 years old
+            PW089_007:         65 years old and over
+
+
+      3. Black: Unrelated Individuals By Age And Poverty Status
+         Universe:  Black: Count of Unrelated Individuals 14 Years Old and Over
+         Name:      PB089
+         Variables:
+            PB089_001:   Black: Count of Unrelated Individuals 14 Years Old and Over:
+            PB089_002:      Above poverty level:
+            PB089_003:         Under 65 years old
+            PB089_004:         65 years old and over
+            PB089_005:      Below poverty level:
+            PB089_006:         Under 65 years old
+            PB089_007:         65 years old and over
+
+
+      4. Spanish: Unrelated Individuals By Age And Poverty Status
+         Universe:  Spanish: Count of Unrelated Individuals 14 Years Old and Over
+         Name:      PH089
+         Variables:
+            PH089_001:   Spanish: Count of Unrelated Individuals 14 Years Old and Over:
+            PH089_002:      Above poverty level:
+            PH089_003:         Under 65 years old
+            PH089_004:         65 years old and over
+            PH089_005:      Below poverty level:
+            PH089_006:         Under 65 years old
+            PH089_007:         65 years old and over
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      State:          State FIPS code
+      METROARA:       SMSA FIPS code
+      COUNTY:         County FIPS code
+      PLACE:          Place FIPS code
+      URBANARA:       Urban Area FIPS code
+      T015_001:       Count of Families
+      T015_002:       Count of Families: Own children under 18 years old present
+      T015_003:       Count of Families: Own children under 18 years old present: Husband-wife family
+      T015_004:       Count of Families: Own children under 18 years old present: Other family
+      T015_005:       Count of Families: Own children under 18 years old present: Other family: Other family with male head
+      T015_006:       Count of Families: Own children under 18 years old present: Other family: Other family with female head
+      T015_007:       Count of Families: Own children under 18 years old not present
+      T015_008:       Count of Families: Own children under 18 years old not present: Husband-wife family
+      T015_009:       Count of Families: Own children under 18 years old not present: Other family
+      T015_010:       Count of Families: Own children under 18 years old not present: Other family: Other family with male head
+      T015_011:       Count of Families: Own children under 18 years old not present: Other family: Other family with female head
+      T056_001:       Population 16 years and over In Civilian labor force
+      T056_002:       Population 16 years and over In Civilian labor force: Employed
+      T056_003:       Population 16 years and over In Civilian labor force: Unemployed
+      T057_001:       Male 16 years and over In Civilian labor force
+      T057_002:       Male 16 years and over In Civilian labor force: Employed
+      T057_003:       Male 16 years and over In Civilian labor force: Unemployed
+      T058_001:       Female 16 years and over In Civilian labor force
+      T058_002:       Female 16 years and over In Civilian labor force: Employed
+      T058_003:       Female 16 years and over In Civilian labor force: Unemployed
+      T059_001:       White Population 16 years and over In Civilian labor force
+      T059_002:       White Population 16 years and over In Civilian labor force: Employed
+      T059_003:       White Population 16 years and over In Civilian labor force: Unemployed
+      T060_001:       Black Population 16 years and over In Civilian labor force
+      T060_002:       Black Population 16 years and over In Civilian labor force: Employed
+      T060_003:       Black Population 16 years and over In Civilian labor force: Unemployed
+      T062_001:       Spanish Population 16 years and over In Civilian labor force
+      T062_002:       Spanish Population 16 years and over In Civilian labor force: Employed
+      T062_003:       Spanish Population 16 years and over In Civilian labor force: Unemployed
+      T085_001:       Average Family Income
+      PT019_001:      Count of Families
+      PT019_002:      Count of Families: Family Type: Husband-wife family
+      PT019_003:      Count of Families: Family Type: Husband-wife family: Own children under 18 years old not present
+      PT019_004:      Count of Families: Family Type: Husband-wife family: Own children under 6 years old
+      PT019_005:      Count of Families: Family Type: Husband-wife family: Own children under 6 years old: Present
+      PT019_006:      Count of Families: Family Type: Husband-wife family: Own children under 6 years old: Not present
+      PT019_007:      Count of Families: Family Type: Other family with male head
+      PT019_008:      Count of Families: Family Type: Other family with male head: Own children under 18 years old not present
+      PT019_009:      Count of Families: Family Type: Other family with male head: Own children under 18 years old present
+      PT019_010:      Count of Families: Family Type: Other family with male head: Own children under 18 years old present: Own children under 6 years old present
+      PT019_011:      Count of Families: Family Type: Other family with male head: Own children under 18 years old present: Own children under 6 years old not present
+      PT019_012:      Count of Families: Family Type: Family with female head
+      PT019_013:      Count of Families: Family Type: Family with female head: Own children under 18 years old not present
+      PT019_014:      Count of Families: Family Type: Family with female head: Own children under 18 years old present
+      PT019_015:      Count of Families: Family Type: Family with female head: Own children under 18 years old present: Own children under 6 years old present
+      PT019_016:      Count of Families: Family Type: Family with female head: Own children under 18 years old present: Own children under 6 years old not present
+      PW089_001:      White: Count of Unrelated Individuals 14 Years Old and Over
+      PW089_002:      White: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level
+      PW089_003:      White: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level: Under 65 years old
+      PW089_004:      White: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level: 65 years old and over
+      PW089_005:      White: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level
+      PW089_006:      White: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level: Under 65 years old
+      PW089_007:      White: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level: 65 years old and over
+      PB089_001:      Black: Count of Unrelated Individuals 14 Years Old and Over
+      PB089_002:      Black: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level
+      PB089_003:      Black: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level: Under 65 years old
+      PB089_004:      Black: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level: 65 years old and over
+      PB089_005:      Black: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level
+      PB089_006:      Black: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level: Under 65 years old
+      PB089_007:      Black: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level: 65 years old and over
+      PH089_001:      Spanish: Count of Unrelated Individuals 14 Years Old and Over
+      PH089_002:      Spanish: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level
+      PH089_003:      Spanish: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level: Under 65 years old
+      PH089_004:      Spanish: Count of Unrelated Individuals 14 Years Old and Over: Above poverty level: 65 years old and over
+      PH089_005:      Spanish: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level
+      PH089_006:      Spanish: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level: Under 65 years old
+      PH089_007:      Spanish: Count of Unrelated Individuals 14 Years Old and Over: Below poverty level: 65 years old and over
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12774733
+
+If you have any questions contact info@socialexplorer.com

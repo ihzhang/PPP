@@ -1,0 +1,356 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12797711
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2012 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2012 (5-Year Estimates)
+Tables:
+
+      1. Highest Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12002
+         Variables:
+            A12002_001:   Population 25 Years and Over:
+            A12002_002:      Less than High School
+            A12002_003:      High School Graduate or More (Includes Equivalency)
+            A12002_004:      Some College or More
+            A12002_005:      Bachelor's Degree or More
+            A12002_006:      Master's Degree or More
+            A12002_007:      Professional School Degree or More
+            A12002_008:      Doctorate Degree
+
+
+      2. Unemployment Rate for Civilian Population in Labor Force 16 Years and Over
+         Universe:  Civilian Population in Labor Force 16 Years and Over:
+         Name:      A17005
+         Variables:
+            A17005_001:   Civilian Population in Labor Force 16 Years and Over:
+            A17005_002:      Employed
+            A17005_003:      Unemployed
+
+
+      3. Unemployment Rate for Civilian Male Population
+         Universe:  Civilian Male in Labor Force 16 Years and Over:
+         Name:      A17005A
+         Variables:
+            A17005A_001:   Civilian Male in Labor Force 16 Years and Over:
+            A17005A_002:      Employed
+            A17005A_003:      Unemployed
+
+
+      4. Unemployment Rate for Civilian Female Population
+         Universe:  Civilian Female in Labor Force 16 Years and Over:
+         Name:      A17005B
+         Variables:
+            A17005B_001:   Civilian Female in Labor Force 16 Years and Over:
+            A17005B_002:      Employed
+            A17005B_003:      Unemployed
+
+
+      5. Unemployment Rate for the Population 16 Years and Over (Black or African American Alone)
+         Universe:  Black or African American 16 Years Old in Civilian Labor Force
+         Name:      A17006B
+         Variables:
+            A17006B_001:   Black or African American 16 Years Old in  Civilian Labor Force:
+            A17006B_002:      Employed
+            A17006B_003:      Unemployed
+
+
+      6. Unemployment Rate for the Population 16 Years and Over (American Indian and Alaska Native Alone)
+         Universe:  American Indian and Alaska Native 16 Years Old in Civilian Labor Force
+         Name:      A17006C
+         Variables:
+            A17006C_001:   American Indian and Alaska Native 16 Years Old in  Civilian Labor Force:
+            A17006C_002:      Employed
+            A17006C_003:      Unemployed
+
+
+      7. Unemployment Rate for the Population 16 Years and Over (Hispanic or Latino)
+         Universe:  Hispanic or Latino 16 Years Old in Civilian Labor Force
+         Name:      A17006H
+         Variables:
+            A17006H_001:   Hispanic or Latino 16 Years Old in Civilian Labor Force:
+            A17006H_002:      Employed
+            A17006H_003:      Unemployed
+
+
+      8. Unemployment Rate for the Population 16 Years and Over (White Alone, Not Hispanic or Latino)
+         Universe:  White Alone, Not Hispanic or Latino 16 Years Old in Civilian Labor Force
+         Name:      A17006I
+         Variables:
+            A17006I_001:   White Alone, Not Hispanic or Latino 16 Years Old  In Civilian Labor Force:
+            A17006I_002:      Employed
+            A17006I_003:      Unemployed
+
+
+      9. Households with Public Assistance Income
+         Universe:  Households
+         Name:      A10014
+         Variables:
+            A10014_001:   Households:
+            A10014_002:      With Public Assistance Income
+            A10014_003:      No Public Assistance Income
+
+
+      10. Poverty Status in 2012 of Families by Family Type by Presence of Children Under 18 Years
+          Universe:  Families
+          Name:      A13002
+          Variables:
+             A13002_001:   Families:
+             A13002_002:      Income in 2012 Below Poverty Level:
+             A13002_003:         Married Couple Family: with Related Child Living  Bellow Poverty Level
+             A13002_004:         Married Couple Family: No Related Children Under 18 Years
+             A13002_005:         Male Householder, No Wife Present:
+             A13002_006:            With Related Children Under 18 Years
+             A13002_007:            No Related Children Under 18 Years
+             A13002_008:         Female Householder, No Husband Present:
+             A13002_009:            With Related Children Under 18 Years
+             A13002_010:            No Related Children Under 18 Years
+             A13002_011:      Income in 2012 At or Above Poverty Level
+
+
+      11. Poverty Status in 2012 for Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status Is determined
+          Name:      A13003A
+          Variables:
+             A13003A_001:   Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+             A13003A_002:      Living in Poverty
+             A13003A_003:      At or Above Poverty Level
+
+
+      12. Poverty Status in 2012 (Black or African American Alone)
+          Universe:  Black or African American Alone Population for whom poverty status Is determined
+          Name:      A13001B
+          Variables:
+             A13001B_001:   Black or African American Alone Population for  Whom Poverty Status Is Determined:
+             A13001B_002:      Income in 2012 Below Poverty Level
+             A13001B_003:      Income in 2012 At or Above Poverty Level
+
+
+      13. Poverty Status in 2012 (American Indian and Alaska Native Alone)
+          Universe:  American Indian and Alaska Native Alone Population for whom poverty status Is determined
+          Name:      A13001C
+          Variables:
+             A13001C_001:   American Indian and Alaska Native Alone  Population for Whom Poverty Status Is Determined:
+             A13001C_002:      Income in 2012 Below Poverty Level
+             A13001C_003:      Income in 2012 At or Above Poverty Level
+
+
+      14. Poverty Status in 2012 (Hispanic or Latino)
+          Universe:  Hispanic or Latino Population for whom poverty status Is determined
+          Name:      A13001H
+          Variables:
+             A13001H_001:   Hispanic or Latino Population for Whom Poverty  Status Is Determined:
+             A13001H_002:      Income in 2012 Below Poverty Level
+             A13001H_003:      Income in 2012 At or Above Poverty Level
+
+
+      15. Poverty Status in 2012 (White Alone, Not Hispanic or Latino)
+          Universe:  White Alone, not Hispanic or Latino Population for whom poverty status Is determined
+          Name:      A13001I
+          Variables:
+             A13001I_001:   White Alone, Not Hispanic or Latino Population  for Whom Poverty Status Is Determined:
+             A13001I_002:      Income in 2012 Below Poverty Level
+             A13001I_003:      Income in 2012 At or Above Poverty Level
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      A12002_001:     Population 25 Years and Over:
+      A12002_002:     Population 25 Years and Over: Less than High School
+      A12002_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002_004:     Population 25 Years and Over: Some College or More
+      A12002_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12002_006:     Population 25 Years and Over: Master's Degree or More
+      A12002_007:     Population 25 Years and Over: Professional School Degree or More
+      A12002_008:     Population 25 Years and Over: Doctorate Degree
+      PCT_A12002_002: % Population 25 Years and Over: Less than High School
+      PCT_A12002_003: % Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      PCT_A12002_004: % Population 25 Years and Over: Some College or More
+      PCT_A12002_005: % Population 25 Years and Over: Bachelor's Degree or More
+      PCT_A12002_006: % Population 25 Years and Over: Master's Degree or More
+      PCT_A12002_007: % Population 25 Years and Over: Professional School Degree or More
+      PCT_A12002_008: % Population 25 Years and Over: Doctorate Degree
+      A17005_001:     Civilian Population in Labor Force 16 Years and Over:
+      A17005_002:     Civilian Population in Labor Force 16 Years and Over: Employed
+      A17005_003:     Civilian Population in Labor Force 16 Years and Over: Unemployed
+      PCT_A17005_002: % Civilian Population in Labor Force 16 Years and Over: Employed
+      PCT_A17005_003: % Civilian Population in Labor Force 16 Years and Over: Unemployed
+      A17005A_001:    Civilian Male in Labor Force 16 Years and Over:
+      A17005A_002:    Civilian Male in Labor Force 16 Years and Over: Employed
+      A17005A_003:    Civilian Male in Labor Force 16 Years and Over: Unemployed
+      PCT_A17005A_002: % Civilian Male in Labor Force 16 Years and Over: Employed
+      PCT_A17005A_003: % Civilian Male in Labor Force 16 Years and Over: Unemployed
+      A17005B_001:    Civilian Female in Labor Force 16 Years and Over:
+      A17005B_002:    Civilian Female in Labor Force 16 Years and Over: Employed
+      A17005B_003:    Civilian Female in Labor Force 16 Years and Over: Unemployed
+      PCT_A17005B_002: % Civilian Female in Labor Force 16 Years and Over: Employed
+      PCT_A17005B_003: % Civilian Female in Labor Force 16 Years and Over: Unemployed
+      A17006B_001:    Black or African American 16 Years Old in  Civilian Labor Force:
+      A17006B_002:    Black or African American 16 Years Old in  Civilian Labor Force: Employed
+      A17006B_003:    Black or African American 16 Years Old in  Civilian Labor Force: Unemployed
+      PCT_A17006B_002: % Black or African American 16 Years Old in  Civilian Labor Force: Employed
+      PCT_A17006B_003: % Black or African American 16 Years Old in  Civilian Labor Force: Unemployed
+      A17006C_001:    American Indian and Alaska Native 16 Years Old in  Civilian Labor Force:
+      A17006C_002:    American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Employed
+      A17006C_003:    American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Unemployed
+      PCT_A17006C_002: % American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Employed
+      PCT_A17006C_003: % American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Unemployed
+      A17006H_001:    Hispanic or Latino 16 Years Old in Civilian Labor Force:
+      A17006H_002:    Hispanic or Latino 16 Years Old in Civilian Labor Force: Employed
+      A17006H_003:    Hispanic or Latino 16 Years Old in Civilian Labor Force: Unemployed
+      PCT_A17006H_002: % Hispanic or Latino 16 Years Old in Civilian Labor Force: Employed
+      PCT_A17006H_003: % Hispanic or Latino 16 Years Old in Civilian Labor Force: Unemployed
+      A17006I_001:    White Alone, Not Hispanic or Latino 16 Years Old  In Civilian Labor Force:
+      A17006I_002:    White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Employed
+      A17006I_003:    White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Unemployed
+      PCT_A17006I_002: % White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Employed
+      PCT_A17006I_003: % White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Unemployed
+      A10014_001:     Households:
+      A10014_002:     Households: with Public Assistance Income
+      A10014_003:     Households: No Public Assistance Income
+      PCT_A10014_002: % Households: with Public Assistance Income
+      PCT_A10014_003: % Households: No Public Assistance Income
+      A13002_001:     Families:
+      A13002_002:     Families: Income in 2012 Below Poverty Level
+      A13002_003:     Families: Income in 2012 Below Poverty Level: Married Couple Family: with Related Child Living  Bellow Poverty Level
+      A13002_004:     Families: Income in 2012 Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+      A13002_005:     Families: Income in 2012 Below Poverty Level: Male Householder, No Wife Present
+      A13002_006:     Families: Income in 2012 Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+      A13002_007:     Families: Income in 2012 Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+      A13002_008:     Families: Income in 2012 Below Poverty Level: Female Householder, No Husband Present
+      A13002_009:     Families: Income in 2012 Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+      A13002_010:     Families: Income in 2012 Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+      A13002_011:     Families: Income in 2012 At or Above Poverty Level
+      PCT_A13002_002: % Families: Income in 2012 Below Poverty Level
+      PCT_A13002_003: % Families: Income in 2012 Below Poverty Level: Married Couple Family: with Related Child Living  Bellow Poverty Level
+      PCT_A13002_004: % Families: Income in 2012 Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+      PCT_A13002_005: % Families: Income in 2012 Below Poverty Level: Male Householder, No Wife Present
+      PCT_A13002_006: % Families: Income in 2012 Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+      PCT_A13002_007: % Families: Income in 2012 Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+      PCT_A13002_008: % Families: Income in 2012 Below Poverty Level: Female Householder, No Husband Present
+      PCT_A13002_009: % Families: Income in 2012 Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+      PCT_A13002_010: % Families: Income in 2012 Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+      PCT_A13002_011: % Families: Income in 2012 At or Above Poverty Level
+      A13003A_001:    Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+      A13003A_002:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      A13003A_003:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      PCT_A13003A_002: % Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      PCT_A13003A_003: % Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      A13001B_001:    Black or African American Alone Population for  Whom Poverty Status Is Determined:
+      A13001B_002:    Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2012 Below Poverty Level
+      A13001B_003:    Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2012 At or Above Poverty Level
+      PCT_A13001B_002: % Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2012 Below Poverty Level
+      PCT_A13001B_003: % Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2012 At or Above Poverty Level
+      A13001C_001:    American Indian and Alaska Native Alone  Population for Whom Poverty Status Is Determined:
+      A13001C_002:    American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2012 Below Poverty Level
+      A13001C_003:    American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2012 At or Above Poverty Level
+      PCT_A13001C_002: % American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2012 Below Poverty Level
+      PCT_A13001C_003: % American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2012 At or Above Poverty Level
+      A13001H_001:    Hispanic or Latino Population for Whom Poverty  Status Is Determined:
+      A13001H_002:    Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2012 Below Poverty Level
+      A13001H_003:    Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2012 At or Above Poverty Level
+      PCT_A13001H_002: % Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2012 Below Poverty Level
+      PCT_A13001H_003: % Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2012 At or Above Poverty Level
+      A13001I_001:    White Alone, Not Hispanic or Latino Population  for Whom Poverty Status Is Determined:
+      A13001I_002:    White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2012 Below Poverty Level
+      A13001I_003:    White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2012 At or Above Poverty Level
+      PCT_A13001I_002: % White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2012 Below Poverty Level
+      PCT_A13001I_003: % White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2012 At or Above Poverty Level
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12797711
+
+If you have any questions contact info@socialexplorer.com

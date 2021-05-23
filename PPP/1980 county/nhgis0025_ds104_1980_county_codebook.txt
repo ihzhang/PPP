@@ -1,0 +1,194 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0025_ds104_1980_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1980
+Geographic level: County (by State)
+Dataset:          1980 Census: STF 1 - 100% Data
+   NHGIS code:    1980_STF1
+   NHGIS ID:      ds104
+Breakdown(s):     Geographic Subarea:
+                     Total area (0000)
+ 
+Tables:
+ 
+1. Age
+   Universe:    Persons
+   Source code: NT10A
+   NHGIS code:  C67
+ 
+2. Persons in Households and Household Type
+   Universe:    Households
+   Source code: NT16
+   NHGIS code:  C7H
+ 
+3. Tenure
+   Universe:    Occupied Housing Units
+   Source code: NT26B
+   NHGIS code:  C7W
+ 
+4. Median Value
+   Universe:    Specified Owner-Occupied Noncondominium Housing Units
+   Source code: NT39
+   NHGIS code:  C8J
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        SMSAA:       Standard Metropolitan Statistical Area Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLCK_GRPA:   Block Group Code
+        BLOCKA:      Block Code
+        EDINDA:      Enumeration District Indicator Code
+        ENUMDISTA:   Enumeration District Code
+        SCSAA:       Standard Consolidated Statistical Area Code
+        URB_AREAA:   Urban Area Code
+        CDA:         Congressional District Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        MCDSEQNOA:   MCD Sequence Number Code
+        ZIPA:        5-Digit Zip Code Code
+        AREANAME:    Area Name
+ 
+Breakdown:
+    Geographic Subarea: Total area (0000)
+ 
+    Table 1:     Age
+    Universe:    Persons
+    Source code: NT10A
+    NHGIS code:  C67
+        C67001:      Under 1 year
+        C67002:      1-2 years
+        C67003:      3-4 years
+        C67004:      5 years
+        C67005:      6 years
+        C67006:      7-9 years
+        C67007:      10-13 years
+        C67008:      14 years
+        C67009:      15 years
+        C67010:      16 years
+        C67011:      17 years
+        C67012:      18 years
+        C67013:      19 years
+        C67014:      20 years
+        C67015:      21 years
+        C67016:      22-24 years
+        C67017:      25-29 years
+        C67018:      30-34 years
+        C67019:      35-44 years
+        C67020:      45-54 years
+        C67021:      55-59 years
+        C67022:      60-61 years
+        C67023:      62-64 years
+        C67024:      65-74 years
+        C67025:      75-84 years
+        C67026:      85 years and over
+ 
+    Table 2:     Persons in Households and Household Type
+    Universe:    Households
+    Source code: NT16
+    NHGIS code:  C7H
+        C7H001:      1 person: Male householder
+        C7H002:      1 person: Female householder
+        C7H003:      2 or more persons: Married couple family
+        C7H004:      2 or more persons: Other family: Male householder, no wife present
+        C7H005:      2 or more persons: Other family: Female householder, no husband present
+        C7H006:      2 or more persons: Nonfamily household: Male householder
+        C7H007:      2 or more persons: Nonfamily household: Female householder
+ 
+    Table 3:     Tenure
+    Universe:    Occupied Housing Units
+    Source code: NT26B
+    NHGIS code:  C7W
+        C7W001:      Owner occupied
+        C7W002:      Renter occupied
+ 
+    Table 4:     Median Value
+    Universe:    Specified Owner-Occupied Noncondominium Housing Units
+    Source code: NT39
+    NHGIS code:  C8J
+        C8J001:      Median value
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 15.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2020. 
+        http://doi.org/10.18128/D050.V15.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455

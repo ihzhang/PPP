@@ -1,0 +1,719 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12825315
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2014 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2014 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Population Density (Per Sq. Mile)
+         Universe:  Total Population
+         Name:      A00002
+         Variables:
+            A00002_001:   Total Population
+            A00002_002:   Population Density (Per Sq. Mile)
+            A00002_003:   Area (Land)
+
+
+      3. Hispanic or Latino by Race
+         Universe:  Total Population
+         Name:      A04001
+         Variables:
+            A04001_001:   Total Population
+            A04001_002:      Not Hispanic or Latino:
+            A04001_003:         White Alone
+            A04001_004:         Black or African American Alone
+            A04001_005:         American Indian and Alaska Native Alone
+            A04001_006:         Asian Alone
+            A04001_007:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_008:         Some Other Race Alone
+            A04001_009:         Two or More Races
+            A04001_010:      Hispanic or Latino:
+            A04001_011:         White Alone
+            A04001_012:         Black or African American Alone
+            A04001_013:         American Indian and Alaska Native Alone
+            A04001_014:         Asian Alone
+            A04001_015:         Native Hawaiian and Other Pacific Islander Alone
+            A04001_016:         Some Other Race Alone
+            A04001_017:         Two or More Races
+
+
+      4. Households by Household Type
+         Universe:  Households
+         Name:      A10008
+         Variables:
+            A10008_001:   Households:
+            A10008_002:      Family Households:
+            A10008_003:         Married-Couple Family
+            A10008_004:         Other Family:
+            A10008_005:            Male Householder, No Wife Present
+            A10008_006:            Female Householder, No Husband Present
+            A10008_007:      Nonfamily Households:
+            A10008_008:         Male Householder
+            A10008_009:         Female Householder
+
+
+      5. Highest Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12002
+         Variables:
+            A12002_001:   Population 25 Years and Over:
+            A12002_002:      Less than High School
+            A12002_003:      High School Graduate or More (Includes Equivalency)
+            A12002_004:      Some College or More
+            A12002_005:      Bachelor's Degree or More
+            A12002_006:      Master's Degree or More
+            A12002_007:      Professional School Degree or More
+            A12002_008:      Doctorate Degree
+
+
+      6. Educational Attainment for Male Population 25 Years and Over
+         Universe:  Male Population 25 Years and Over
+         Name:      A12001A
+         Variables:
+            A12001A_001:   Male Population 25 Years and Over:
+            A12001A_002:      Less than High School
+            A12001A_003:      High School Graduate (Includes Equivalency)
+            A12001A_004:      Some College
+            A12001A_005:      Bachelor's Degree
+            A12001A_006:      Master's Degree
+            A12001A_007:      Professional School Degree
+            A12001A_008:      Doctorate Degree
+
+
+      7. Educational Attainment for Female Population 25 Years and Over
+         Universe:  Female Population 25 Years and Over
+         Name:      A12001B
+         Variables:
+            A12001B_001:   Female Population 25 Years and Over:
+            A12001B_002:      Less than High School
+            A12001B_003:      High School Graduate (Includes Equivalency)
+            A12001B_004:      Some College
+            A12001B_005:      Bachelor's Degree
+            A12001B_006:      Master's Degree
+            A12001B_007:      Professional School Degree
+            A12001B_008:      Doctorate Degree
+
+
+      8. Employment Status for Total Population 16 Years and Over
+         Universe:  Population 16 Years and Over
+         Name:      A17002
+         Variables:
+            A17002_001:   Population 16 Years and Over:
+            A17002_002:      In Labor Force:
+            A17002_003:         In Armed Forces
+            A17002_004:         Civilian:
+            A17002_005:            Employed
+            A17002_006:            Unemployed
+            A17002_007:      Not in Labor Force
+
+
+      9. Employment Status for Male Population 16 Years and Over
+         Universe:  Male Population 16 Years and Over
+         Name:      A17002A
+         Variables:
+            A17002A_001:   Male Population 16 Years and Over:
+            A17002A_002:      In Labor Force:
+            A17002A_003:         In Armed Forces
+            A17002A_004:         Civilian:
+            A17002A_005:            Employed
+            A17002A_006:            Unemployed
+            A17002A_007:      Not in Labor Force
+
+
+      10. Employment Status for Female Population 16 Years and Over
+          Universe:  Female Population 16 Years and Over
+          Name:      A17002B
+          Variables:
+             A17002B_001:   Female Population 16 Years and Over:
+             A17002B_002:      In Labor Force:
+             A17002B_003:         In Armed Forces
+             A17002B_004:         Civilian:
+             A17002B_005:            Employed
+             A17002B_006:            Unemployed
+             A17002B_007:      Not in Labor Force
+
+
+      11. Unemployment Rate for the Population 16 Years and Over (Black or African American Alone)
+          Universe:  Black or African American 16 Years Old in Civilian Labor Force
+          Name:      A17006B
+          Variables:
+             A17006B_001:   Black or African American 16 Years Old in  Civilian Labor Force:
+             A17006B_002:      Employed
+             A17006B_003:      Unemployed
+
+
+      12. Unemployment Rate for the Population 16 Years and Over (American Indian and Alaska Native Alone)
+          Universe:  American Indian and Alaska Native 16 Years Old in Civilian Labor Force
+          Name:      A17006C
+          Variables:
+             A17006C_001:   American Indian and Alaska Native 16 Years Old in  Civilian Labor Force:
+             A17006C_002:      Employed
+             A17006C_003:      Unemployed
+
+
+      13. Unemployment Rate for the Population 16 Years and Over (Hispanic or Latino)
+          Universe:  Hispanic or Latino 16 Years Old in Civilian Labor Force
+          Name:      A17006H
+          Variables:
+             A17006H_001:   Hispanic or Latino 16 Years Old in Civilian Labor Force:
+             A17006H_002:      Employed
+             A17006H_003:      Unemployed
+
+
+      14. Unemployment Rate for the Population 16 Years and Over (White Alone, Not Hispanic or Latino)
+          Universe:  White Alone, Not Hispanic or Latino 16 Years Old in Civilian Labor Force
+          Name:      A17006I
+          Variables:
+             A17006I_001:   White Alone, Not Hispanic or Latino 16 Years Old  In Civilian Labor Force:
+             A17006I_002:      Employed
+             A17006I_003:      Unemployed
+
+
+      15. Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14001
+          Variables:
+             A14001_001:   Households:
+             A14001_002:      Less than $10,000
+             A14001_003:      $10,000 to $14,999
+             A14001_004:      $15,000 to $19,999
+             A14001_005:      $20,000 to $24,999
+             A14001_006:      $25,000 to $29,999
+             A14001_007:      $30,000 to $34,999
+             A14001_008:      $35,000 to $39,999
+             A14001_009:      $40,000 to $44,999
+             A14001_010:      $45,000 to $49,999
+             A14001_011:      $50,000 to $59,999
+             A14001_012:      $60,000 to $74,999
+             A14001_013:      $75,000 to $99,999
+             A14001_014:      $100,000 to $124,999
+             A14001_015:      $125,000 to $149,999
+             A14001_016:      $150,000 to $199,999
+             A14001_017:      $200,000 or More
+
+
+      16. Median Household Income (In <DollarYear> Inflation Adjusted Dollars)
+          Universe:  Households
+          Name:      A14006
+          Variables:
+             A14006_001:   Median Household Income (In 2014 Inflation Adjusted Dollars)
+
+
+      17. Households with Public Assistance Income
+          Universe:  Households
+          Name:      A10014
+          Variables:
+             A10014_001:   Households:
+             A10014_002:      With Public Assistance Income
+             A10014_003:      No Public Assistance Income
+
+
+      18. Tenure
+          Universe:  Occupied Housing Units
+          Name:      A10060
+          Variables:
+             A10060_001:   Occupied Housing Units:
+             A10060_002:      Owner Occupied
+             A10060_003:      Renter Occupied
+
+
+      19. Occupancy Status
+          Universe:  Housing units
+          Name:      A10044
+          Variables:
+             A10044_001:   Housing Units:
+             A10044_002:      Occupied
+             A10044_003:      Vacant
+
+
+      20. House Value for All Owner-Occupied Housing Units
+          Universe:  Owner-occupied housing units
+          Name:      A10035
+          Variables:
+             A10035_001:   Owner-Occupied Housing Units:
+             A10035_002:      Less than $20,000
+             A10035_003:      $20,000 to $49,999
+             A10035_004:      $50,000 to $99,999
+             A10035_005:      $100,000 to $149,999
+             A10035_006:      $150,000 to $299,999
+             A10035_007:      $300,000 to $499,999
+             A10035_008:      $500,000 to $749,999
+             A10035_009:      $750,000 to $999,999
+             A10035_010:      $1,000,000 or More
+
+
+      21. Poverty Status in 2014 of Families by Family Type by Presence of Children Under 18 Years
+          Universe:  Families
+          Name:      A13002
+          Variables:
+             A13002_001:   Families:
+             A13002_002:      Income in 2014 Below Poverty Level:
+             A13002_003:         Married Couple Family: with Related Child Living  Bellow Poverty Level
+             A13002_004:         Married Couple Family: No Related Children Under 18 Years
+             A13002_005:         Male Householder, No Wife Present:
+             A13002_006:            With Related Children Under 18 Years
+             A13002_007:            No Related Children Under 18 Years
+             A13002_008:         Female Householder, No Husband Present:
+             A13002_009:            With Related Children Under 18 Years
+             A13002_010:            No Related Children Under 18 Years
+             A13002_011:      Income in 2014 At or Above Poverty Level
+
+
+      22. Poverty Status in 2014 for Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status Is determined
+          Name:      A13003A
+          Variables:
+             A13003A_001:   Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+             A13003A_002:      Living in Poverty
+             A13003A_003:      At or Above Poverty Level
+
+
+      23. Poverty Status in 2014 (White Alone)
+          Universe:  White Alone Population for whom poverty status Is determined
+          Name:      A13001A
+          Variables:
+             A13001A_001:   White Alone Population for Whom Poverty Status Is  Determined:
+             A13001A_002:      Income in 2014 Below Poverty Level
+             A13001A_003:      Income in 2014 At or Above Poverty Level
+
+
+      24. Poverty Status in 2014 (Black or African American Alone)
+          Universe:  Black or African American Alone Population for whom poverty status Is determined
+          Name:      A13001B
+          Variables:
+             A13001B_001:   Black or African American Alone Population for  Whom Poverty Status Is Determined:
+             A13001B_002:      Income in 2014 Below Poverty Level
+             A13001B_003:      Income in 2014 At or Above Poverty Level
+
+
+      25. Poverty Status in 2014 (American Indian and Alaska Native Alone)
+          Universe:  American Indian and Alaska Native Alone Population for whom poverty status Is determined
+          Name:      A13001C
+          Variables:
+             A13001C_001:   American Indian and Alaska Native Alone  Population for Whom Poverty Status Is Determined:
+             A13001C_002:      Income in 2014 Below Poverty Level
+             A13001C_003:      Income in 2014 At or Above Poverty Level
+
+
+      26. Poverty Status in 2014 (Hispanic or Latino)
+          Universe:  Hispanic or Latino Population for whom poverty status Is determined
+          Name:      A13001H
+          Variables:
+             A13001H_001:   Hispanic or Latino Population for Whom Poverty  Status Is Determined:
+             A13001H_002:      Income in 2014 Below Poverty Level
+             A13001H_003:      Income in 2014 At or Above Poverty Level
+
+
+      27. Poverty Status in 2014 (White Alone, Not Hispanic or Latino)
+          Universe:  White Alone, not Hispanic or Latino Population for whom poverty status Is determined
+          Name:      A13001I
+          Variables:
+             A13001I_001:   White Alone, Not Hispanic or Latino Population  for Whom Poverty Status Is Determined:
+             A13001I_002:      Income in 2014 Below Poverty Level
+             A13001I_003:      Income in 2014 At or Above Poverty Level
+
+
+      28. Nativity by Citizenship Status
+          Universe:  Total Population
+          Name:      A06001
+          Variables:
+             A06001_001:   Total Population:
+             A06001_002:      Native Born
+             A06001_003:      Foreign Born:
+             A06001_004:         Naturalized Citizen
+             A06001_005:         Not a Citizen
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      A00001_001:     Total Population
+      A00002_001:     Total Population
+      A00002_002:     Population Density (Per Sq. Mile)
+      A00002_003:     Area (Land)
+      A04001_001:     Total Population
+      A04001_002:     Total Population: Not Hispanic or Latino
+      A04001_003:     Total Population: Not Hispanic or Latino: White Alone
+      A04001_004:     Total Population: Not Hispanic or Latino: Black or African American Alone
+      A04001_005:     Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_006:     Total Population: Not Hispanic or Latino: Asian Alone
+      A04001_007:     Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_008:     Total Population: Not Hispanic or Latino: Some Other Race Alone
+      A04001_009:     Total Population: Not Hispanic or Latino: Two or More Races
+      A04001_010:     Total Population: Hispanic or Latino
+      A04001_011:     Total Population: Hispanic or Latino: White Alone
+      A04001_012:     Total Population: Hispanic or Latino: Black or African American Alone
+      A04001_013:     Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      A04001_014:     Total Population: Hispanic or Latino: Asian Alone
+      A04001_015:     Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      A04001_016:     Total Population: Hispanic or Latino: Some Other Race Alone
+      A04001_017:     Total Population: Hispanic or Latino: Two or More Races
+      PCT_A04001_002: % Total Population: Not Hispanic or Latino
+      PCT_A04001_003: % Total Population: Not Hispanic or Latino: White Alone
+      PCT_A04001_004: % Total Population: Not Hispanic or Latino: Black or African American Alone
+      PCT_A04001_005: % Total Population: Not Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_A04001_006: % Total Population: Not Hispanic or Latino: Asian Alone
+      PCT_A04001_007: % Total Population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_A04001_008: % Total Population: Not Hispanic or Latino: Some Other Race Alone
+      PCT_A04001_009: % Total Population: Not Hispanic or Latino: Two or More Races
+      PCT_A04001_010: % Total Population: Hispanic or Latino
+      PCT_A04001_011: % Total Population: Hispanic or Latino: White Alone
+      PCT_A04001_012: % Total Population: Hispanic or Latino: Black or African American Alone
+      PCT_A04001_013: % Total Population: Hispanic or Latino: American Indian and Alaska Native Alone
+      PCT_A04001_014: % Total Population: Hispanic or Latino: Asian Alone
+      PCT_A04001_015: % Total Population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander Alone
+      PCT_A04001_016: % Total Population: Hispanic or Latino: Some Other Race Alone
+      PCT_A04001_017: % Total Population: Hispanic or Latino: Two or More Races
+      A10008_001:     Households:
+      A10008_002:     Households: Family Households
+      A10008_003:     Households: Family Households: Married-Couple Family
+      A10008_004:     Households: Family Households: Other Family
+      A10008_005:     Households: Family Households: Other Family: Male Householder, No Wife Present
+      A10008_006:     Households: Family Households: Other Family: Female Householder, No Husband Present
+      A10008_007:     Households: Nonfamily Households
+      A10008_008:     Households: Nonfamily Households: Male Householder
+      A10008_009:     Households: Nonfamily Households: Female Householder
+      PCT_A10008_002: % Households: Family Households
+      PCT_A10008_003: % Households: Family Households: Married-Couple Family
+      PCT_A10008_004: % Households: Family Households: Other Family
+      PCT_A10008_005: % Households: Family Households: Other Family: Male Householder, No Wife Present
+      PCT_A10008_006: % Households: Family Households: Other Family: Female Householder, No Husband Present
+      PCT_A10008_007: % Households: Nonfamily Households
+      PCT_A10008_008: % Households: Nonfamily Households: Male Householder
+      PCT_A10008_009: % Households: Nonfamily Households: Female Householder
+      A12002_001:     Population 25 Years and Over:
+      A12002_002:     Population 25 Years and Over: Less than High School
+      A12002_003:     Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      A12002_004:     Population 25 Years and Over: Some College or More
+      A12002_005:     Population 25 Years and Over: Bachelor's Degree or More
+      A12002_006:     Population 25 Years and Over: Master's Degree or More
+      A12002_007:     Population 25 Years and Over: Professional School Degree or More
+      A12002_008:     Population 25 Years and Over: Doctorate Degree
+      PCT_A12002_002: % Population 25 Years and Over: Less than High School
+      PCT_A12002_003: % Population 25 Years and Over: High School Graduate or More (Includes Equivalency)
+      PCT_A12002_004: % Population 25 Years and Over: Some College or More
+      PCT_A12002_005: % Population 25 Years and Over: Bachelor's Degree or More
+      PCT_A12002_006: % Population 25 Years and Over: Master's Degree or More
+      PCT_A12002_007: % Population 25 Years and Over: Professional School Degree or More
+      PCT_A12002_008: % Population 25 Years and Over: Doctorate Degree
+      A12001A_001:    Male Population 25 Years and Over:
+      A12001A_002:    Male Population 25 Years and Over: Less than High School
+      A12001A_003:    Male Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001A_004:    Male Population 25 Years and Over: Some College
+      A12001A_005:    Male Population 25 Years and Over: Bachelor's Degree
+      A12001A_006:    Male Population 25 Years and Over: Master's Degree
+      A12001A_007:    Male Population 25 Years and Over: Professional School Degree
+      A12001A_008:    Male Population 25 Years and Over: Doctorate Degree
+      PCT_A12001A_002: % Male Population 25 Years and Over: Less than High School
+      PCT_A12001A_003: % Male Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      PCT_A12001A_004: % Male Population 25 Years and Over: Some College
+      PCT_A12001A_005: % Male Population 25 Years and Over: Bachelor's Degree
+      PCT_A12001A_006: % Male Population 25 Years and Over: Master's Degree
+      PCT_A12001A_007: % Male Population 25 Years and Over: Professional School Degree
+      PCT_A12001A_008: % Male Population 25 Years and Over: Doctorate Degree
+      A12001B_001:    Female Population 25 Years and Over:
+      A12001B_002:    Female Population 25 Years and Over: Less than High School
+      A12001B_003:    Female Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001B_004:    Female Population 25 Years and Over: Some College
+      A12001B_005:    Female Population 25 Years and Over: Bachelor's Degree
+      A12001B_006:    Female Population 25 Years and Over: Master's Degree
+      A12001B_007:    Female Population 25 Years and Over: Professional School Degree
+      A12001B_008:    Female Population 25 Years and Over: Doctorate Degree
+      PCT_A12001B_002: % Female Population 25 Years and Over: Less than High School
+      PCT_A12001B_003: % Female Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      PCT_A12001B_004: % Female Population 25 Years and Over: Some College
+      PCT_A12001B_005: % Female Population 25 Years and Over: Bachelor's Degree
+      PCT_A12001B_006: % Female Population 25 Years and Over: Master's Degree
+      PCT_A12001B_007: % Female Population 25 Years and Over: Professional School Degree
+      PCT_A12001B_008: % Female Population 25 Years and Over: Doctorate Degree
+      A17002_001:     Population 16 Years and Over:
+      A17002_002:     Population 16 Years and Over: in Labor Force
+      A17002_003:     Population 16 Years and Over: in Labor Force: in Armed Forces
+      A17002_004:     Population 16 Years and Over: in Labor Force: Civilian
+      A17002_005:     Population 16 Years and Over: in Labor Force: Civilian: Employed
+      A17002_006:     Population 16 Years and Over: in Labor Force: Civilian: Unemployed
+      A17002_007:     Population 16 Years and Over: Not in Labor Force
+      PCT_A17002_002: % Population 16 Years and Over: in Labor Force
+      PCT_A17002_003: % Population 16 Years and Over: in Labor Force: in Armed Forces
+      PCT_A17002_004: % Population 16 Years and Over: in Labor Force: Civilian
+      PCT_A17002_005: % Population 16 Years and Over: in Labor Force: Civilian: Employed
+      PCT_A17002_006: % Population 16 Years and Over: in Labor Force: Civilian: Unemployed
+      PCT_A17002_007: % Population 16 Years and Over: Not in Labor Force
+      A17002A_001:    Male Population 16 Years and Over:
+      A17002A_002:    Male Population 16 Years and Over: in Labor Force
+      A17002A_003:    Male Population 16 Years and Over: in Labor Force: in Armed Forces
+      A17002A_004:    Male Population 16 Years and Over: in Labor Force: Civilian
+      A17002A_005:    Male Population 16 Years and Over: in Labor Force: Civilian: Employed
+      A17002A_006:    Male Population 16 Years and Over: in Labor Force: Civilian: Unemployed
+      A17002A_007:    Male Population 16 Years and Over: Not in Labor Force
+      PCT_A17002A_002: % Male Population 16 Years and Over: in Labor Force
+      PCT_A17002A_003: % Male Population 16 Years and Over: in Labor Force: in Armed Forces
+      PCT_A17002A_004: % Male Population 16 Years and Over: in Labor Force: Civilian
+      PCT_A17002A_005: % Male Population 16 Years and Over: in Labor Force: Civilian: Employed
+      PCT_A17002A_006: % Male Population 16 Years and Over: in Labor Force: Civilian: Unemployed
+      PCT_A17002A_007: % Male Population 16 Years and Over: Not in Labor Force
+      A17002B_001:    Female Population 16 Years and Over:
+      A17002B_002:    Female Population 16 Years and Over: in Labor Force
+      A17002B_003:    Female Population 16 Years and Over: in Labor Force: in Armed Forces
+      A17002B_004:    Female Population 16 Years and Over: in Labor Force: Civilian
+      A17002B_005:    Female Population 16 Years and Over: in Labor Force: Civilian: Employed
+      A17002B_006:    Female Population 16 Years and Over: in Labor Force: Civilian: Unemployed
+      A17002B_007:    Female Population 16 Years and Over: Not in Labor Force
+      PCT_A17002B_002: % Female Population 16 Years and Over: in Labor Force
+      PCT_A17002B_003: % Female Population 16 Years and Over: in Labor Force: in Armed Forces
+      PCT_A17002B_004: % Female Population 16 Years and Over: in Labor Force: Civilian
+      PCT_A17002B_005: % Female Population 16 Years and Over: in Labor Force: Civilian: Employed
+      PCT_A17002B_006: % Female Population 16 Years and Over: in Labor Force: Civilian: Unemployed
+      PCT_A17002B_007: % Female Population 16 Years and Over: Not in Labor Force
+      A17006B_001:    Black or African American 16 Years Old in  Civilian Labor Force:
+      A17006B_002:    Black or African American 16 Years Old in  Civilian Labor Force: Employed
+      A17006B_003:    Black or African American 16 Years Old in  Civilian Labor Force: Unemployed
+      PCT_A17006B_002: % Black or African American 16 Years Old in  Civilian Labor Force: Employed
+      PCT_A17006B_003: % Black or African American 16 Years Old in  Civilian Labor Force: Unemployed
+      A17006C_001:    American Indian and Alaska Native 16 Years Old in  Civilian Labor Force:
+      A17006C_002:    American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Employed
+      A17006C_003:    American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Unemployed
+      PCT_A17006C_002: % American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Employed
+      PCT_A17006C_003: % American Indian and Alaska Native 16 Years Old in  Civilian Labor Force: Unemployed
+      A17006H_001:    Hispanic or Latino 16 Years Old in Civilian Labor Force:
+      A17006H_002:    Hispanic or Latino 16 Years Old in Civilian Labor Force: Employed
+      A17006H_003:    Hispanic or Latino 16 Years Old in Civilian Labor Force: Unemployed
+      PCT_A17006H_002: % Hispanic or Latino 16 Years Old in Civilian Labor Force: Employed
+      PCT_A17006H_003: % Hispanic or Latino 16 Years Old in Civilian Labor Force: Unemployed
+      A17006I_001:    White Alone, Not Hispanic or Latino 16 Years Old  In Civilian Labor Force:
+      A17006I_002:    White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Employed
+      A17006I_003:    White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Unemployed
+      PCT_A17006I_002: % White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Employed
+      PCT_A17006I_003: % White Alone, Not Hispanic or Latino 16 Years Old  In<br /> Civilian Labor Force: Unemployed
+      A14001_001:     Households:
+      A14001_002:     Households: Less than $10,000
+      A14001_003:     Households: $10,000 to $14,999
+      A14001_004:     Households: $15,000 to $19,999
+      A14001_005:     Households: $20,000 to $24,999
+      A14001_006:     Households: $25,000 to $29,999
+      A14001_007:     Households: $30,000 to $34,999
+      A14001_008:     Households: $35,000 to $39,999
+      A14001_009:     Households: $40,000 to $44,999
+      A14001_010:     Households: $45,000 to $49,999
+      A14001_011:     Households: $50,000 to $59,999
+      A14001_012:     Households: $60,000 to $74,999
+      A14001_013:     Households: $75,000 to $99,999
+      A14001_014:     Households: $100,000 to $124,999
+      A14001_015:     Households: $125,000 to $149,999
+      A14001_016:     Households: $150,000 to $199,999
+      A14001_017:     Households: $200,000 or More
+      PCT_A14001_002: % Households: Less than $10,000
+      PCT_A14001_003: % Households: $10,000 to $14,999
+      PCT_A14001_004: % Households: $15,000 to $19,999
+      PCT_A14001_005: % Households: $20,000 to $24,999
+      PCT_A14001_006: % Households: $25,000 to $29,999
+      PCT_A14001_007: % Households: $30,000 to $34,999
+      PCT_A14001_008: % Households: $35,000 to $39,999
+      PCT_A14001_009: % Households: $40,000 to $44,999
+      PCT_A14001_010: % Households: $45,000 to $49,999
+      PCT_A14001_011: % Households: $50,000 to $59,999
+      PCT_A14001_012: % Households: $60,000 to $74,999
+      PCT_A14001_013: % Households: $75,000 to $99,999
+      PCT_A14001_014: % Households: $100,000 to $124,999
+      PCT_A14001_015: % Households: $125,000 to $149,999
+      PCT_A14001_016: % Households: $150,000 to $199,999
+      PCT_A14001_017: % Households: $200,000 or More
+      A14006_001:     Median Household Income (In 2014 Inflation Adjusted Dollars)
+      A10014_001:     Households:
+      A10014_002:     Households: with Public Assistance Income
+      A10014_003:     Households: No Public Assistance Income
+      PCT_A10014_002: % Households: with Public Assistance Income
+      PCT_A10014_003: % Households: No Public Assistance Income
+      A10060_001:     Occupied Housing Units:
+      A10060_002:     Occupied Housing Units: Owner Occupied
+      A10060_003:     Occupied Housing Units: Renter Occupied
+      PCT_A10060_002: % Occupied Housing Units: Owner Occupied
+      PCT_A10060_003: % Occupied Housing Units: Renter Occupied
+      A10044_001:     Housing Units:
+      A10044_002:     Housing Units: Occupied
+      A10044_003:     Housing Units: Vacant
+      PCT_A10044_002: % Housing Units: Occupied
+      PCT_A10044_003: % Housing Units: Vacant
+      A10035_001:     Owner-Occupied Housing Units:
+      A10035_002:     Owner-Occupied Housing Units: Less than $20,000
+      A10035_003:     Owner-Occupied Housing Units: $20,000 to $49,999
+      A10035_004:     Owner-Occupied Housing Units: $50,000 to $99,999
+      A10035_005:     Owner-Occupied Housing Units: $100,000 to $149,999
+      A10035_006:     Owner-Occupied Housing Units: $150,000 to $299,999
+      A10035_007:     Owner-Occupied Housing Units: $300,000 to $499,999
+      A10035_008:     Owner-Occupied Housing Units: $500,000 to $749,999
+      A10035_009:     Owner-Occupied Housing Units: $750,000 to $999,999
+      A10035_010:     Owner-Occupied Housing Units: $1,000,000 or More
+      PCT_A10035_002: % Owner-Occupied Housing Units: Less than $20,000
+      PCT_A10035_003: % Owner-Occupied Housing Units: $20,000 to $49,999
+      PCT_A10035_004: % Owner-Occupied Housing Units: $50,000 to $99,999
+      PCT_A10035_005: % Owner-Occupied Housing Units: $100,000 to $149,999
+      PCT_A10035_006: % Owner-Occupied Housing Units: $150,000 to $299,999
+      PCT_A10035_007: % Owner-Occupied Housing Units: $300,000 to $499,999
+      PCT_A10035_008: % Owner-Occupied Housing Units: $500,000 to $749,999
+      PCT_A10035_009: % Owner-Occupied Housing Units: $750,000 to $999,999
+      PCT_A10035_010: % Owner-Occupied Housing Units: $1,000,000 or More
+      A13002_001:     Families:
+      A13002_002:     Families: Income in 2014 Below Poverty Level
+      A13002_003:     Families: Income in 2014 Below Poverty Level: Married Couple Family: with Related Child Living  Bellow Poverty Level
+      A13002_004:     Families: Income in 2014 Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+      A13002_005:     Families: Income in 2014 Below Poverty Level: Male Householder, No Wife Present
+      A13002_006:     Families: Income in 2014 Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+      A13002_007:     Families: Income in 2014 Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+      A13002_008:     Families: Income in 2014 Below Poverty Level: Female Householder, No Husband Present
+      A13002_009:     Families: Income in 2014 Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+      A13002_010:     Families: Income in 2014 Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+      A13002_011:     Families: Income in 2014 At or Above Poverty Level
+      PCT_A13002_002: % Families: Income in 2014 Below Poverty Level
+      PCT_A13002_003: % Families: Income in 2014 Below Poverty Level: Married Couple Family: with Related Child Living  Bellow Poverty Level
+      PCT_A13002_004: % Families: Income in 2014 Below Poverty Level: Married Couple Family: No Related Children Under 18 Years
+      PCT_A13002_005: % Families: Income in 2014 Below Poverty Level: Male Householder, No Wife Present
+      PCT_A13002_006: % Families: Income in 2014 Below Poverty Level: Male Householder, No Wife Present: with Related Children Under 18 Years
+      PCT_A13002_007: % Families: Income in 2014 Below Poverty Level: Male Householder, No Wife Present: No Related Children Under 18 Years
+      PCT_A13002_008: % Families: Income in 2014 Below Poverty Level: Female Householder, No Husband Present
+      PCT_A13002_009: % Families: Income in 2014 Below Poverty Level: Female Householder, No Husband Present: with Related Children Under 18 Years
+      PCT_A13002_010: % Families: Income in 2014 Below Poverty Level: Female Householder, No Husband Present: No Related Children Under 18 Years
+      PCT_A13002_011: % Families: Income in 2014 At or Above Poverty Level
+      A13003A_001:    Population Under 18 Years of Age for Whom Poverty Status Is Determined:
+      A13003A_002:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      A13003A_003:    Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      PCT_A13003A_002: % Population Under 18 Years of Age for Whom Poverty Status Is Determined: Living in Poverty
+      PCT_A13003A_003: % Population Under 18 Years of Age for Whom Poverty Status Is Determined: At or Above Poverty Level
+      A13001A_001:    White Alone Population for Whom Poverty Status Is  Determined:
+      A13001A_002:    White Alone Population for Whom Poverty Status Is  Determined: Income in 2014 Below Poverty Level
+      A13001A_003:    White Alone Population for Whom Poverty Status Is  Determined: Income in 2014 At or Above Poverty Level
+      PCT_A13001A_002: % White Alone Population for Whom Poverty Status Is  Determined: Income in 2014 Below Poverty Level
+      PCT_A13001A_003: % White Alone Population for Whom Poverty Status Is  Determined: Income in 2014 At or Above Poverty Level
+      A13001B_001:    Black or African American Alone Population for  Whom Poverty Status Is Determined:
+      A13001B_002:    Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2014 Below Poverty Level
+      A13001B_003:    Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2014 At or Above Poverty Level
+      PCT_A13001B_002: % Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2014 Below Poverty Level
+      PCT_A13001B_003: % Black or African American Alone Population for  Whom<br /> Poverty Status Is Determined: Income in 2014 At or Above Poverty Level
+      A13001C_001:    American Indian and Alaska Native Alone  Population for Whom Poverty Status Is Determined:
+      A13001C_002:    American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2014 Below Poverty Level
+      A13001C_003:    American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2014 At or Above Poverty Level
+      PCT_A13001C_002: % American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2014 Below Poverty Level
+      PCT_A13001C_003: % American Indian and Alaska Native Alone  Population For<br /> Whom Poverty Status Is Determined: Income in 2014 At or Above Poverty Level
+      A13001H_001:    Hispanic or Latino Population for Whom Poverty  Status Is Determined:
+      A13001H_002:    Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2014 Below Poverty Level
+      A13001H_003:    Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2014 At or Above Poverty Level
+      PCT_A13001H_002: % Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2014 Below Poverty Level
+      PCT_A13001H_003: % Hispanic or Latino Population for Whom Poverty  Status Is Determined: Income in 2014 At or Above Poverty Level
+      A13001I_001:    White Alone, Not Hispanic or Latino Population  for Whom Poverty Status Is Determined:
+      A13001I_002:    White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2014 Below Poverty Level
+      A13001I_003:    White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2014 At or Above Poverty Level
+      PCT_A13001I_002: % White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2014 Below Poverty Level
+      PCT_A13001I_003: % White Alone, Not Hispanic or Latino Population  for Whom<br /> Poverty Status Is Determined: Income in 2014 At or Above Poverty Level
+      A06001_001:     Total Population:
+      A06001_002:     Total Population: Native Born
+      A06001_003:     Total Population: Foreign Born
+      A06001_004:     Total Population: Foreign Born: Naturalized Citizen
+      A06001_005:     Total Population: Foreign Born: Not a Citizen
+      PCT_A06001_002: % Total Population: Native Born
+      PCT_A06001_003: % Total Population: Foreign Born
+      PCT_A06001_004: % Total Population: Foreign Born: Naturalized Citizen
+      PCT_A06001_005: % Total Population: Foreign Born: Not a Citizen
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12825315
+
+If you have any questions contact info@socialexplorer.com

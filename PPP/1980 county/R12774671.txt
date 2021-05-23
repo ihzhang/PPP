@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12774671
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1980
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Population Density
+         Universe:  Total Population
+         Name:      A1
+         Variables:
+            A001_001:   Total Population
+            A001_002:   Population Density Per Square Mile
+
+
+      2. Median Household Income (In <DollarYear> Dollars)
+         Universe:  Households
+         Name:      T53
+         Variables:
+            T053_001:   Median Household Income In 1979 Dollars
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      Name:           Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+      QName:          Qualifying Name
+      GISJOIN:        NHGIS GIS Join Field
+      GISJOIN2:       NHGIS GISJoin2 Field
+      SUMLEV:         Summary Level
+      FIPS:           FIPS
+      STATE:          FIPS State Code
+      COUNTY:         FIPS County Code
+      A001_001:       Total Population
+      A001_002:       Population Density Per Square Mile
+      T053_001:       Median Household Income  (In 1979 Dollars)
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12774671
+
+If you have any questions contact info@socialexplorer.com

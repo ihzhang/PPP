@@ -1,0 +1,243 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12776803
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2010
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Total Population
+         Universe:  Total population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population
+
+
+      2. Population Density (per sq. mile)
+         Universe:  Total population
+         Name:      T2
+         Variables:
+            T002_001:   Total Population
+            T002_002:   Population Density (per sq. mile)
+            T002_006:   Area (Land)
+
+
+      3. Age (Short Version)
+         Universe:  Total population
+         Name:      T11
+         Variables:
+            T011_001:   Total Population:
+            T011_002:      Under 18 years
+            T011_003:      18 to 34 years
+            T011_004:      35 to 64 years
+            T011_005:      65 and over
+
+
+      4. Hispanic Or Latino Origin By Race
+         Universe:  Total population
+         Name:      T55
+         Variables:
+            T055_001:   Total population:
+            T055_002:      Not Hispanic or Latino:
+            T055_003:         White alone
+            T055_004:         Black or African American alone
+            T055_005:         American Indian and Alaska Native alone
+            T055_006:         Asian alone
+            T055_007:         Native Hawaiian and Other Pacific Islander alone
+            T055_008:         Some Other Race alone
+            T055_009:         Two or More Races
+            T055_010:      Hispanic or Latino:
+            T055_011:         White alone
+            T055_012:         Black or African American alone
+            T055_013:         American Indian and Alaska Native alone
+            T055_014:         Asian alone
+            T055_015:         Native Hawaiian and Other Pacific Islander alone
+            T055_016:         Some Other Race alone
+            T055_017:         Two or More Races
+
+
+      5. Households By Household Type
+         Universe:  Households
+         Name:      T58
+         Variables:
+            T058_001:   Households:
+            T058_002:      Family households:
+            T058_003:         Married-couple family
+            T058_004:         Other family:
+            T058_005:            Male householder, no wife present
+            T058_006:            Female householder, no husband present
+            T058_007:      Nonfamily households:
+            T058_008:         Householder living alone
+            T058_009:         Householder not living alone
+
+
+      6. Group Quarters Population By Group Quarters Type
+         Universe:  Total population
+         Name:      T67
+         Variables:
+            T067_001:   Total population:
+            T067_002:      Population in group quarters:
+            T067_003:         Institutionalized population:
+            T067_004:            Correctional institutions
+            T067_005:            Nursing homes
+            T067_006:            Other institutions
+            T067_007:         Noninstitutionalized population:
+            T067_008:            College/University student housing
+            T067_009:            Military quarters
+            T067_010:            Other noninstitutional facilities
+            T067_011:      Population NOT in group Quarters
+
+
+      7. Tenure
+         Universe:  Occupied housing units
+         Name:      T69
+         Variables:
+            T069_001:   Occupied housing units:
+            T069_002:      Owner Occupied
+            T069_003:      Renter occupied
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      STATE:          State (FIPS)
+      COUNTY:         County
+      T001_001:       Total Population
+      T002_001:       Total Population
+      T002_002:       Population Density (per sq. mile)
+      T002_006:       Area (Land)
+      T011_001:       Total Population
+      T011_002:       Total Population: Under 18 years
+      T011_003:       Total Population: 18 to 34 years
+      T011_004:       Total Population: 35 to 64 years
+      T011_005:       Total Population: 65 and over
+      PCT_T011_002:   % Total Population: Under 18 years
+      PCT_T011_003:   % Total Population: 18 to 34 years
+      PCT_T011_004:   % Total Population: 35 to 64 years
+      PCT_T011_005:   % Total Population: 65 and over
+      T055_001:       Total population
+      T055_002:       Total population: Not Hispanic or Latino
+      T055_003:       Total population: Not Hispanic or Latino: White alone
+      T055_004:       Total population: Not Hispanic or Latino: Black or African American alone
+      T055_005:       Total population: Not Hispanic or Latino: American Indian and Alaska Native alone
+      T055_006:       Total population: Not Hispanic or Latino: Asian alone
+      T055_007:       Total population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+      T055_008:       Total population: Not Hispanic or Latino: Some Other Race alone
+      T055_009:       Total population: Not Hispanic or Latino: Two or More Races
+      T055_010:       Total population: Hispanic or Latino
+      T055_011:       Total population: Hispanic or Latino: White alone
+      T055_012:       Total population: Hispanic or Latino: Black or African American alone
+      T055_013:       Total population: Hispanic or Latino: American Indian and Alaska Native alone
+      T055_014:       Total population: Hispanic or Latino: Asian alone
+      T055_015:       Total population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+      T055_016:       Total population: Hispanic or Latino: Some Other Race alone
+      T055_017:       Total population: Hispanic or Latino: Two or More Races
+      PCT_T055_002:   % Total population: Not Hispanic or Latino
+      PCT_T055_003:   % Total population: Not Hispanic or Latino: White alone
+      PCT_T055_004:   % Total population: Not Hispanic or Latino: Black or African American alone
+      PCT_T055_005:   % Total population: Not Hispanic or Latino: American Indian and Alaska Native alone
+      PCT_T055_006:   % Total population: Not Hispanic or Latino: Asian alone
+      PCT_T055_007:   % Total population: Not Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+      PCT_T055_008:   % Total population: Not Hispanic or Latino: Some Other Race alone
+      PCT_T055_009:   % Total population: Not Hispanic or Latino: Two or More Races
+      PCT_T055_010:   % Total population: Hispanic or Latino
+      PCT_T055_011:   % Total population: Hispanic or Latino: White alone
+      PCT_T055_012:   % Total population: Hispanic or Latino: Black or African American alone
+      PCT_T055_013:   % Total population: Hispanic or Latino: American Indian and Alaska Native alone
+      PCT_T055_014:   % Total population: Hispanic or Latino: Asian alone
+      PCT_T055_015:   % Total population: Hispanic or Latino: Native Hawaiian and Other Pacific Islander alone
+      PCT_T055_016:   % Total population: Hispanic or Latino: Some Other Race alone
+      PCT_T055_017:   % Total population: Hispanic or Latino: Two or More Races
+      T058_001:       Households
+      T058_002:       Households: Family households
+      T058_003:       Households: Family households: Married-couple family
+      T058_004:       Households: Family households: Other family
+      T058_005:       Households: Family households: Other family: Male householder, no wife present
+      T058_006:       Households: Family households: Other family: Female householder, no husband present
+      T058_007:       Households: Nonfamily households
+      T058_008:       Households: Nonfamily households: Householder living alone
+      T058_009:       Households: Nonfamily households: Householder not living alone
+      PCT_T058_002:   % Households: Family households
+      PCT_T058_003:   % Households: Family households: Married-couple family
+      PCT_T058_004:   % Households: Family households: Other family
+      PCT_T058_005:   % Households: Family households: Other family: Male householder, no wife present
+      PCT_T058_006:   % Households: Family households: Other family: Female householder, no husband present
+      PCT_T058_007:   % Households: Nonfamily households
+      PCT_T058_008:   % Households: Nonfamily households: Householder living alone
+      PCT_T058_009:   % Households: Nonfamily households: Householder not living alone
+      T067_001:       Total population
+      T067_002:       Total population: Population in group quarters
+      T067_003:       Total population: Population in group quarters: Institutionalized population
+      T067_004:       Total population: Population in group quarters: Institutionalized population: Correctional institutions
+      T067_005:       Total population: Population in group quarters: Institutionalized population: Nursing homes
+      T067_006:       Total population: Population in group quarters: Institutionalized population: Other institutions
+      T067_007:       Total population: Population in group quarters: Noninstitutionalized population
+      T067_008:       Total population: Population in group quarters: Noninstitutionalized population: College/University student housing
+      T067_009:       Total population: Population in group quarters: Noninstitutionalized population: Military quarters
+      T067_010:       Total population: Population in group quarters: Noninstitutionalized population: Other noninstitutional facilities
+      T067_011:       Total population: Population NOT in group Quarters
+      PCT_T067_002:   % Total population: Population in group quarters
+      PCT_T067_003:   % Total population: Population in group quarters: Institutionalized population
+      PCT_T067_004:   % Total population: Population in group quarters: Institutionalized population: Correctional institutions
+      PCT_T067_005:   % Total population: Population in group quarters: Institutionalized population: Nursing homes
+      PCT_T067_006:   % Total population: Population in group quarters: Institutionalized population: Other institutions
+      PCT_T067_007:   % Total population: Population in group quarters: Noninstitutionalized population
+      PCT_T067_008:   % Total population: Population in group quarters: Noninstitutionalized population: College/University student housing
+      PCT_T067_009:   % Total population: Population in group quarters: Noninstitutionalized population: Military quarters
+      PCT_T067_010:   % Total population: Population in group quarters: Noninstitutionalized population: Other noninstitutional facilities
+      PCT_T067_011:   % Total population: Population NOT in group Quarters
+      T069_001:       Occupied housing units
+      T069_002:       Occupied housing units: Owner Occupied
+      T069_003:       Occupied housing units: Renter occupied
+      PCT_T069_002:   % Occupied housing units: Owner Occupied
+      PCT_T069_003:   % Occupied housing units: Renter occupied
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12776803
+
+If you have any questions contact info@socialexplorer.com

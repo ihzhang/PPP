@@ -1,0 +1,101 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12825314
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 2010
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Group Quarters Population By Group Quarters Type
+         Universe:  Total population
+         Name:      T67
+         Variables:
+            T067_001:   Total population:
+            T067_002:      Population in group quarters:
+            T067_003:         Institutionalized population:
+            T067_004:            Correctional institutions
+            T067_005:            Nursing homes
+            T067_006:            Other institutions
+            T067_007:         Noninstitutionalized population:
+            T067_008:            College/University student housing
+            T067_009:            Military quarters
+            T067_010:            Other noninstitutional facilities
+            T067_011:      Population NOT in group Quarters
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description
+      QName:          Qualifying Name
+      AREALAND:       Area (Land)
+      AREAWATR:       Area (Water)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      STATE:          State (FIPS)
+      PLACE:          Place (FIPS)
+      T067_001:       Total population
+      T067_002:       Total population: Population in group quarters
+      T067_003:       Total population: Population in group quarters: Institutionalized population
+      T067_004:       Total population: Population in group quarters: Institutionalized population: Correctional institutions
+      T067_005:       Total population: Population in group quarters: Institutionalized population: Nursing homes
+      T067_006:       Total population: Population in group quarters: Institutionalized population: Other institutions
+      T067_007:       Total population: Population in group quarters: Noninstitutionalized population
+      T067_008:       Total population: Population in group quarters: Noninstitutionalized population: College/University student housing
+      T067_009:       Total population: Population in group quarters: Noninstitutionalized population: Military quarters
+      T067_010:       Total population: Population in group quarters: Noninstitutionalized population: Other noninstitutional facilities
+      T067_011:       Total population: Population NOT in group Quarters
+      PCT_T067_002:   % Total population: Population in group quarters
+      PCT_T067_003:   % Total population: Population in group quarters: Institutionalized population
+      PCT_T067_004:   % Total population: Population in group quarters: Institutionalized population: Correctional institutions
+      PCT_T067_005:   % Total population: Population in group quarters: Institutionalized population: Nursing homes
+      PCT_T067_006:   % Total population: Population in group quarters: Institutionalized population: Other institutions
+      PCT_T067_007:   % Total population: Population in group quarters: Noninstitutionalized population
+      PCT_T067_008:   % Total population: Population in group quarters: Noninstitutionalized population: College/University student housing
+      PCT_T067_009:   % Total population: Population in group quarters: Noninstitutionalized population: Military quarters
+      PCT_T067_010:   % Total population: Population in group quarters: Noninstitutionalized population: Other noninstitutional facilities
+      PCT_T067_011:   % Total population: Population NOT in group Quarters
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12825314
+
+If you have any questions contact info@socialexplorer.com

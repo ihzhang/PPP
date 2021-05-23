@@ -1,0 +1,562 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12776090
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1990
+Dataset:          Social Explorer - Custom tables made from STF1 and STF3
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population
+
+
+      2. Population Density (per sq. mile)
+         Universe:  Total Population
+         Name:      T2
+         Variables:
+            T002_002:   Total Population
+            T002_001:   Population Density (per sq. mile)
+            T002_003:   Land Area (sq. miles)
+
+
+      3. Age (short version)
+         Universe:  Persons
+         Name:      T9
+         Variables:
+            T009_001:   Persons:
+            T009_002:      Under 18 year
+            T009_003:      18 to 34 years
+            T009_004:      35 to 64 years
+            T009_005:      65 and over
+
+
+      4. Hispanic Origin By Race
+         Universe:  Total Population
+         Name:      T13
+         Variables:
+            T013_001:   Total Population:
+            T013_002:      Non-Hispanic:
+            T013_003:         White
+            T013_004:         Black
+            T013_005:         American Indian, Eskimo, or Aleut
+            T013_006:         Asian or Pacific Islander
+            T013_007:         Other race
+            T013_008:      Hispanic:
+            T013_009:         White
+            T013_010:         Black
+            T013_011:         American Indian, Eskimo, or Aleut
+            T013_012:         Asian or Pacific Islander
+            T013_013:         Other race
+
+
+      5. Household Type
+         Universe:  Households
+         Name:      T16
+         Variables:
+            T016_001:   Households:
+            T016_002:      Family households:
+            T016_003:         Married-couple family:
+            T016_004:         Other family:
+            T016_005:            Male householder, no wife present:
+            T016_006:            Female householder, no husband present:
+            T016_007:      Nonfamily households:
+            T016_008:         Male householder
+            T016_009:         Female householder
+
+
+      6. Group Quarters
+         Universe:  Total Population
+         Name:      T21
+         Variables:
+            T021_001:   Total Population:
+            T021_002:      Population In Group Quarters
+            T021_003:      Population Not In Group Quarters
+
+
+      7. Highest Educational Attainment for Population 25 Years and Over
+         Universe:  Persons 25 years and over
+         Name:      T117
+         Variables:
+            T117_001:   Persons 25 years and over:
+            T117_002:      Less Than High School
+            T117_003:      High school graduate or more (includes equivalency)
+            T117_004:      Some college or more
+            T117_005:      Bachelor's degree or more
+            T117_006:      Graduate or professional degree or more
+
+
+      8. Unemployment Rate For Total Population 16 Years And Over
+         Universe:  Civilian Population In Labor Force 16 Years And Over
+         Name:      T29
+         Variables:
+            T029_001:   Civilian Population In Labor Force 16 Years And Over:
+            T029_002:      Employed
+            T029_003:      Unemployed
+
+
+      9. Unemployment Rate For Male Population 16 Years And Over
+         Universe:  Male Civilian Population In Labor Force 16 Years And Over
+         Name:      T30
+         Variables:
+            T030_001:   Male Civilian Population In Labor Force 16 Years And Over:
+            T030_002:      Employed
+            T030_003:      Unemployed
+
+
+      10. Unemployment Rate For Female Population 16 Years And Over
+          Universe:  Female Civilian Population In Labor Force 16 Years And Over
+          Name:      T31
+          Variables:
+             T031_001:   Female Civilian Population In Labor Force 16 Years And Over:
+             T031_002:      Employed
+             T031_003:      Unemployed
+
+
+      11. Unemployment Rate For Population 16 Years And Over (White Alone)
+          Universe:  White 16 Years Old In Civilian Labor Force
+          Name:      T32
+          Variables:
+             T032_001:   White 16 Years Old In Civilian Labor Force:
+             T032_002:      Employed
+             T032_003:      Unemployed
+
+
+      12. Unemployment Rate For Population 16 Years And Over (Black or African American Alone)
+          Universe:  Black or African American 16 Years Old In Civilian Labor Force
+          Name:      T33
+          Variables:
+             T033_001:   Black or African American 16 Years Old In Civilian Labor Force:
+             T033_002:      Employed
+             T033_003:      Unemployed
+
+
+      13. Unemployment Rate For Population 16 Years And Over (American Indian, Eskimo, or Aleut)
+          Universe:  American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force
+          Name:      T34
+          Variables:
+             T034_001:   American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force:
+             T034_002:      Employed
+             T034_003:      Unemployed
+
+
+      14. Unemployment Rate For Population 16 Years And Over (Hispanic)
+          Universe:  Hispanic 16 Years Old In Civilian Labor Force
+          Name:      T37
+          Variables:
+             T037_001:   Hispanic 16 Years Old In Civilian Labor Force:
+             T037_002:      Employed
+             T037_003:      Unemployed
+
+
+      15. Median Household Income In <DollarYear> Dollars
+          Universe:  Households
+          Name:      T43
+          Variables:
+             T043_001:   Median Household Income In 1989 Dollars
+
+
+      16. Households by Presence of Public Assistance Income in 1989
+          Universe:  Households
+          Name:      T62
+          Variables:
+             T062_001:   Households:
+             T062_002:      With public assistance income
+             T062_003:      No public assistance income
+
+
+      17. Tenure
+          Universe:  Occupied housing units
+          Name:      T73
+          Variables:
+             T073_001:   Occupied housing units:
+             T073_002:      Owner occupied
+             T073_003:      Renter occupied
+
+
+      18. Poverty Status In 1989 For Population Under 18
+          Universe:  Persons Under 18 for whom poverty status is determined
+          Name:      T94
+          Variables:
+             T094_001:   Persons Under 18 for whom poverty status is determined:
+             T094_002:         Income in 1989 above poverty level
+             T094_003:         Income in 1989 below poverty level
+
+
+      19. Poverty Status In 1989 By Race
+          Universe:  Persons for whom poverty status is determined
+          Name:      T99
+          Variables:
+             T099_001:   Persons for whom poverty status is determined:
+             T099_002:      Income in 1989 above poverty level:
+             T099_003:         White
+             T099_004:         Black
+             T099_005:         American Indian, Eskimo, or Aleut
+             T099_006:         Asian or Pacific Islander
+             T099_007:         Other race
+             T099_008:      Income in 1989 below poverty level:
+             T099_009:         White
+             T099_010:         Black
+             T099_011:         American Indian, Eskimo, or Aleut
+             T099_012:         Asian or Pacific Islander
+             T099_013:         Other race
+
+
+      20. Poverty Status In 1989 (White Population)
+          Universe:  White Persons for whom poverty status is determined
+          Name:      T100
+          Variables:
+             T100_001:   White Persons for whom poverty status is determined:
+             T100_002:      Income in 1989 above poverty level
+             T100_003:      Income in 1989 below poverty level
+
+
+      21. Poverty Status In 1989 (Black Population)
+          Universe:  Black Persons for whom poverty status is determined
+          Name:      T101
+          Variables:
+             T101_001:   Black Persons for whom poverty status is determined:
+             T101_002:      Income in 1989 above poverty level
+             T101_003:      Income in 1989 below poverty level
+
+
+      22. Poverty Status In 1989 (American Indian, Eskimo, or Aleut)
+          Universe:  American Indian, Eskimo, or Aleut Persons for whom poverty status is determined
+          Name:      T102
+          Variables:
+             T102_001:   American Indian, Eskimo, or Aleut Persons for whom poverty status is determined:
+             T102_002:      Income in 1989 above poverty level
+             T102_003:      Income in 1989 below poverty level
+
+
+      23. Poverty Status In 1989 (Persons of Hispanic origin)
+          Universe:  Persons of Hispanic origin for whom poverty status is determined
+          Name:      T105
+          Variables:
+             T105_001:   Persons of Hispanic origin for whom poverty status is determined:
+             T105_002:      Income in 1989 above poverty level
+             T105_003:      Income in 1989 below poverty level
+
+
+      24. Nativity By Citizenship Status
+          Universe:  Total Population
+          Name:      T110
+          Variables:
+             T110_001:   Total Population:
+             T110_002:      Native
+             T110_003:      Foreign born:
+             T110_004:         Naturalized citizen
+             T110_005:         Not a citizen
+
+
+
+
+
+Survey:           Census 1990
+Dataset:          Summary Tape File 1
+Tables:
+
+      1. Group Quarters
+         Universe:  Persons in group quarters
+         Name:      P28
+         Variables:
+            P028_001:   Persons in group quarters
+            P028_002:      Institutionalized persons:
+            P028_003:         Correctional institutions
+            P028_004:         Nursing homes
+            P028_005:         Mental (Psychiatric) hospitals
+            P028_006:         Juvenile institutions
+            P028_007:         Other persons in group quarters
+            P028_008:      Other persons in group quarters:
+            P028_009:         College dormitories
+            P028_010:         Military quarters
+            P028_011:         Emergency shelters for homeless
+            P028_012:         Visible in street locations
+            P028_013:         Other noninstitutional group quarters
+
+
+      2. Median Value
+         Universe:  Specified owner-occupied housing units
+         Name:      H23B
+         Variables:
+            H023B_001:   Median Value for Specified owner-occupied housing units
+
+
+
+
+
+Survey:           Census 1990
+Dataset:          Summary Tape File 3
+Tables:
+
+      1. Public Assistance Income In 1989
+         Universe:  Households
+         Name:      P95
+         Variables:
+            P095_001:   Households
+            P095_002:      With public assistance income
+            P095_003:      No public assistance income
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      NAME:           Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+      QName:          Qualifying Name
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      REGION:         Region
+      DIVISION:       Division
+      FIPS:           FIPS
+      STATE:          State-FIPS
+      COUNTY:         County
+      T001_001:       Total Population
+      T002_002:       Total Population
+      T002_001:       Population Density (per sq. mile)
+      T002_003:       Land Area (sq. miles)
+      T009_001:       Persons
+      T009_002:       Persons: Under 18 year
+      T009_003:       Persons: 18 to 34 years
+      T009_004:       Persons: 35 to 64 years
+      T009_005:       Persons: 65 and over
+      PCT_T009_002:   % Persons: Under 18 year
+      PCT_T009_003:   % Persons: 18 to 34 years
+      PCT_T009_004:   % Persons: 35 to 64 years
+      PCT_T009_005:   % Persons: 65 and over
+      T013_001:       Total Population
+      T013_002:       Total Population: Non-Hispanic
+      T013_003:       Total Population: Non-Hispanic: White
+      T013_004:       Total Population: Non-Hispanic: Black
+      T013_005:       Total Population: Non-Hispanic: American Indian, Eskimo, or Aleut
+      T013_006:       Total Population: Non-Hispanic: Asian or Pacific Islander
+      T013_007:       Total Population: Non-Hispanic: Other race
+      T013_008:       Total Population: Hispanic
+      T013_009:       Total Population: Hispanic: White
+      T013_010:       Total Population: Hispanic: Black
+      T013_011:       Total Population: Hispanic: American Indian, Eskimo, or Aleut
+      T013_012:       Total Population: Hispanic: Asian or Pacific Islander
+      T013_013:       Total Population: Hispanic: Other race
+      PCT_T013_002:   % Total Population: Non-Hispanic
+      PCT_T013_003:   % Total Population: Non-Hispanic: White
+      PCT_T013_004:   % Total Population: Non-Hispanic: Black
+      PCT_T013_005:   % Total Population: Non-Hispanic: American Indian, Eskimo, or Aleut
+      PCT_T013_006:   % Total Population: Non-Hispanic: Asian or Pacific Islander
+      PCT_T013_007:   % Total Population: Non-Hispanic: Other race
+      PCT_T013_008:   % Total Population: Hispanic
+      PCT_T013_009:   % Total Population: Hispanic: White
+      PCT_T013_010:   % Total Population: Hispanic: Black
+      PCT_T013_011:   % Total Population: Hispanic: American Indian, Eskimo, or Aleut
+      PCT_T013_012:   % Total Population: Hispanic: Asian or Pacific Islander
+      PCT_T013_013:   % Total Population: Hispanic: Other race
+      T016_001:       Households
+      T016_002:       Households: Family households
+      T016_003:       Households: Family households: Married-couple family
+      T016_004:       Households: Family households: Other family
+      T016_005:       Households: Family households: Other family: Male householder, no wife present
+      T016_006:       Households: Family households: Other family: Female householder, no husband present
+      T016_007:       Households: Nonfamily households
+      T016_008:       Households: Nonfamily households: Male householder
+      T016_009:       Households: Nonfamily households: Female householder
+      PCT_T016_002:   % Households: Family households
+      PCT_T016_003:   % Households: Family households: Married-couple family
+      PCT_T016_004:   % Households: Family households: Other family
+      PCT_T016_005:   % Households: Family households: Other family: Male householder, no wife present
+      PCT_T016_006:   % Households: Family households: Other family: Female householder, no husband present
+      PCT_T016_007:   % Households: Nonfamily households
+      PCT_T016_008:   % Households: Nonfamily households: Male householder
+      PCT_T016_009:   % Households: Nonfamily households: Female householder
+      T021_001:       Total Population
+      T021_002:       Total Population: Population In Group Quarters
+      T021_003:       Total Population: Population Not In Group Quarters
+      PCT_T021_002:   % Total Population: Population In Group Quarters
+      PCT_T021_003:   % Total Population: Population Not In Group Quarters
+      T117_001:       Persons 25 years and over
+      T117_002:       Persons 25 years and over: Less Than High School
+      T117_003:       Persons 25 years and over: High school graduate or more (includes equivalency)
+      T117_004:       Persons 25 years and over: Some college or more
+      T117_005:       Persons 25 years and over: Bachelor's degree or more
+      T117_006:       Persons 25 years and over: Graduate or professional degree or more
+      PCT_T117_002:   % Persons 25 years and over: Less Than High School
+      PCT_T117_003:   % Persons 25 years and over: High school graduate or more (includes equivalency)
+      PCT_T117_004:   % Persons 25 years and over: Some college or more
+      PCT_T117_005:   % Persons 25 years and over: Bachelor's degree or more
+      PCT_T117_006:   % Persons 25 years and over: Graduate or professional degree or more
+      T029_001:       Civilian Population In Labor Force 16 Years And Over
+      T029_002:       Civilian Population In Labor Force 16 Years And Over: Employed
+      T029_003:       Civilian Population In Labor Force 16 Years And Over: Unemployed
+      PCT_T029_002:   % Civilian Population In Labor Force 16 Years And Over: Employed
+      PCT_T029_003:   % Civilian Population In Labor Force 16 Years And Over: Unemployed
+      T030_001:       Male Civilian Population In Labor Force 16 Years And Over
+      T030_002:       Male Civilian Population In Labor Force 16 Years And Over: Employed
+      T030_003:       Male Civilian Population In Labor Force 16 Years And Over: Unemployed
+      PCT_T030_002:   % Male Civilian Population In Labor Force 16 Years And Over: Employed
+      PCT_T030_003:   % Male Civilian Population In Labor Force 16 Years And Over: Unemployed
+      T031_001:       Female Civilian Population In Labor Force 16 Years And Over
+      T031_002:       Female Civilian Population In Labor Force 16 Years And Over: Employed
+      T031_003:       Female Civilian Population In Labor Force 16 Years And Over: Unemployed
+      PCT_T031_002:   % Female Civilian Population In Labor Force 16 Years And Over: Employed
+      PCT_T031_003:   % Female Civilian Population In Labor Force 16 Years And Over: Unemployed
+      T032_001:       White 16 Years Old In Civilian Labor Force
+      T032_002:       White 16 Years Old In Civilian Labor Force: Employed
+      T032_003:       White 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T032_002:   % White 16 Years Old In Civilian Labor Force: Employed
+      PCT_T032_003:   % White 16 Years Old In Civilian Labor Force: Unemployed
+      T033_001:       Black or African American 16 Years Old In Civilian Labor Force
+      T033_002:       Black or African American 16 Years Old In Civilian Labor Force: Employed
+      T033_003:       Black or African American 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T033_002:   % Black or African American 16 Years Old In Civilian Labor Force: Employed
+      PCT_T033_003:   % Black or African American 16 Years Old In Civilian Labor Force: Unemployed
+      T034_001:       American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force
+      T034_002:       American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force: Employed
+      T034_003:       American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T034_002:   % American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force: Employed
+      PCT_T034_003:   % American Indian, Eskimo, or Aleut 16 Years Old In Civilian Labor Force: Unemployed
+      T037_001:       Hispanic 16 Years Old In Civilian Labor Force
+      T037_002:       Hispanic 16 Years Old In Civilian Labor Force: Employed
+      T037_003:       Hispanic 16 Years Old In Civilian Labor Force: Unemployed
+      PCT_T037_002:   % Hispanic 16 Years Old In Civilian Labor Force: Employed
+      PCT_T037_003:   % Hispanic 16 Years Old In Civilian Labor Force: Unemployed
+      T043_001:       Median Household Income In 1989 Dollars
+      T062_001:       Households
+      T062_002:       Households: With public assistance income
+      T062_003:       Households: No public assistance income
+      PCT_T062_002:   % Households: With public assistance income
+      PCT_T062_003:   % Households: No public assistance income
+      T073_001:       Occupied housing units
+      T073_002:       Occupied housing units: Owner occupied
+      T073_003:       Occupied housing units: Renter occupied
+      PCT_T073_002:   % Occupied housing units: Owner occupied
+      PCT_T073_003:   % Occupied housing units: Renter occupied
+      T094_001:       Persons Under 18 for whom poverty status is determined
+      T094_002:       Income in 1989 above poverty level: Under 18
+      T094_003:       Income in 1989 below poverty level: Under 18
+      PCT_T094_002:   % Income in 1989 above poverty level: Under 18
+      PCT_T094_003:   % Income in 1989 below poverty level: Under 18
+      T099_001:       Persons for whom poverty status is determined
+      T099_002:       Persons for whom poverty status is determined: Income in 1989 above poverty level
+      T099_003:       Persons for whom poverty status is determined: Income in 1989 above poverty level: White
+      T099_004:       Persons for whom poverty status is determined: Income in 1989 above poverty level: Black
+      T099_005:       Persons for whom poverty status is determined: Income in 1989 above poverty level: American Indian, Eskimo, or Aleut
+      T099_006:       Persons for whom poverty status is determined: Income in 1989 above poverty level: Asian or Pacific Islander
+      T099_007:       Persons for whom poverty status is determined: Income in 1989 above poverty level: Other race
+      T099_008:       Persons for whom poverty status is determined: Income in 1989 below poverty level
+      T099_009:       Persons for whom poverty status is determined: Income in 1989 below poverty level: White
+      T099_010:       Persons for whom poverty status is determined: Income in 1989 below poverty level: Black
+      T099_011:       Persons for whom poverty status is determined: Income in 1989 below poverty level: American Indian, Eskimo, or Aleut
+      T099_012:       Persons for whom poverty status is determined: Income in 1989 below poverty level: Asian or Pacific Islander
+      T099_013:       Persons for whom poverty status is determined: Income in 1989 below poverty level: Other race
+      PCT_T099_002:   % Persons for whom poverty status is determined: Income in 1989 above poverty level
+      PCT_T099_003:   % Persons for whom poverty status is determined: Income in 1989 above poverty level: White
+      PCT_T099_004:   % Persons for whom poverty status is determined: Income in 1989 above poverty level: Black
+      PCT_T099_005:   % Persons for whom poverty status is determined: Income in 1989 above poverty level: American Indian, Eskimo, or Aleut
+      PCT_T099_006:   % Persons for whom poverty status is determined: Income in 1989 above poverty level: Asian or Pacific Islander
+      PCT_T099_007:   % Persons for whom poverty status is determined: Income in 1989 above poverty level: Other race
+      PCT_T099_008:   % Persons for whom poverty status is determined: Income in 1989 below poverty level
+      PCT_T099_009:   % Persons for whom poverty status is determined: Income in 1989 below poverty level: White
+      PCT_T099_010:   % Persons for whom poverty status is determined: Income in 1989 below poverty level: Black
+      PCT_T099_011:   % Persons for whom poverty status is determined: Income in 1989 below poverty level: American Indian, Eskimo, or Aleut
+      PCT_T099_012:   % Persons for whom poverty status is determined: Income in 1989 below poverty level: Asian or Pacific Islander
+      PCT_T099_013:   % Persons for whom poverty status is determined: Income in 1989 below poverty level: Other race
+      T100_001:       White Persons for whom poverty status is determined
+      T100_002:       White Persons for whom poverty status is determined: Income in 1989 above poverty level
+      T100_003:       White Persons for whom poverty status is determined: Income in 1989 below poverty level
+      PCT_T100_002:   % White Persons for whom poverty status is determined: Income in 1989 above poverty level
+      PCT_T100_003:   % White Persons for whom poverty status is determined: Income in 1989 below poverty level
+      T101_001:       Black Persons for whom poverty status is determined
+      T101_002:       Black Persons for whom poverty status is determined: Income in 1989 above poverty level
+      T101_003:       Black Persons for whom poverty status is determined: Income in 1989 below poverty level
+      PCT_T101_002:   % Black Persons for whom poverty status is determined: Income in 1989 above poverty level
+      PCT_T101_003:   % Black Persons for whom poverty status is determined: Income in 1989 below poverty level
+      T102_001:       American Indian, Eskimo, or Aleut Persons for whom poverty status is determined
+      T102_002:       American Indian, Eskimo, or Aleut Persons for whom poverty status is determined: Income in 1989 above poverty level
+      T102_003:       American Indian, Eskimo, or Aleut Persons for whom poverty status is determined: Income in 1989 below poverty level
+      PCT_T102_002:   % American Indian, Eskimo, or Aleut Persons for whom poverty status is determined: Income in 1989 above poverty level
+      PCT_T102_003:   % American Indian, Eskimo, or Aleut Persons for whom poverty status is determined: Income in 1989 below poverty level
+      T105_001:       Persons of Hispanic origin for whom poverty status is determined
+      T105_002:       Persons of Hispanic origin for whom poverty status is determined: Income in 1989 above poverty level
+      T105_003:       Persons of Hispanic origin for whom poverty status is determined: Income in 1989 below poverty level
+      PCT_T105_002:   % Persons of Hispanic origin for whom poverty status is determined: Income in 1989 above poverty level
+      PCT_T105_003:   % Persons of Hispanic origin for whom poverty status is determined: Income in 1989 below poverty level
+      T110_001:       Total Population
+      T110_002:       Total Population: Native
+      T110_003:       Total Population: Foreign born
+      T110_004:       Total Population: Foreign born: Naturalized citizen
+      T110_005:       Total Population: Foreign born: Not a citizen
+      PCT_T110_002:   % Total Population: Native
+      PCT_T110_003:   % Total Population: Foreign born
+      PCT_T110_004:   % Total Population: Foreign born: Naturalized citizen
+      PCT_T110_005:   % Total Population: Foreign born: Not a citizen
+      P028_001:       Persons in group quarters
+      P028_002:       Persons in group quarters: Institutionalized persons
+      P028_003:       Persons in group quarters: Institutionalized persons: Correctional institutions
+      P028_004:       Persons in group quarters: Institutionalized persons: Nursing homes
+      P028_005:       Persons in group quarters: Institutionalized persons: Mental (Psychiatric) hospitals
+      P028_006:       Persons in group quarters: Institutionalized persons: Juvenile institutions
+      P028_007:       Persons in group quarters: Institutionalized persons: Other persons in group quarters
+      P028_008:       Persons in group quarters: Other persons in group quarters
+      P028_009:       Persons in group quarters: Other persons in group quarters: College dormitories
+      P028_010:       Persons in group quarters: Other persons in group quarters: Military quarters
+      P028_011:       Persons in group quarters: Other persons in group quarters: Emergency shelters for homeless
+      P028_012:       Persons in group quarters: Other persons in group quarters: Visible in street locations
+      P028_013:       Persons in group quarters: Other persons in group quarters: Other noninstitutional group quarters
+      PCT_P028_002:   % Persons in group quarters: Institutionalized persons
+      PCT_P028_003:   % Persons in group quarters: Institutionalized persons: Correctional institutions
+      PCT_P028_004:   % Persons in group quarters: Institutionalized persons: Nursing homes
+      PCT_P028_005:   % Persons in group quarters: Institutionalized persons: Mental (Psychiatric) hospitals
+      PCT_P028_006:   % Persons in group quarters: Institutionalized persons: Juvenile institutions
+      PCT_P028_007:   % Persons in group quarters: Institutionalized persons: Other persons in group quarters
+      PCT_P028_008:   % Persons in group quarters: Other persons in group quarters
+      PCT_P028_009:   % Persons in group quarters: Other persons in group quarters: College dormitories
+      PCT_P028_010:   % Persons in group quarters: Other persons in group quarters: Military quarters
+      PCT_P028_011:   % Persons in group quarters: Other persons in group quarters: Emergency shelters for homeless
+      PCT_P028_012:   % Persons in group quarters: Other persons in group quarters: Visible in street locations
+      PCT_P028_013:   % Persons in group quarters: Other persons in group quarters: Other noninstitutional group quarters
+      H023B_001:      Median Value for Specified owner-occupied housing units
+      P095_001:       Households
+      P095_002:       Households: With public assistance income
+      P095_003:       Households: No public assistance income
+      PCT_P095_002:   % Households: With public assistance income
+      PCT_P095_003:   % Households: No public assistance income
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12776090
+
+If you have any questions contact info@socialexplorer.com

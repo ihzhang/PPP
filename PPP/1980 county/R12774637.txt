@@ -1,0 +1,144 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12774637
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1980
+Dataset:          Social Explorer Tables
+Tables:
+
+      1. Unemployment Rate For Civilian Population
+         Universe:  Civilian Population In Labor Force 16 Years And Over
+         Name:      T40
+         Variables:
+            T040_001:   Civilian Population In Labor Force 16 Years And Over:
+            T040_002:      Employed
+            T040_003:      Unemployed
+
+
+      2. Unemployment Rate For Civilian Male Population
+         Universe:  Civilian Male In Labor Force 16 Years And Over
+         Name:      T41
+         Variables:
+            T041_001:   Civilian Male In Labor Force 16 Years And Over:
+            T041_002:      Employed
+            T041_003:      Unemployed
+
+
+      3. Unemployment Rate For Civilian Female Population
+         Universe:  Civilian Female In Labor Force 16 Years And Over
+         Name:      T42
+         Variables:
+            T042_001:   Civilian Female In Labor Force 16 Years And Over:
+            T042_002:      Employed
+            T042_003:      Unemployed
+
+
+      4. Unemployment Rate For Civilian Population (White Alone)
+         Universe:  White 16 Years Old In Civilian Labor Force
+         Name:      T43
+         Variables:
+            T043_001:   White 16 Years Old In Civilian Labor Force:
+            T043_002:      Employed
+            T043_003:      Unemployed
+
+
+      5. Unemployment Rate For Civilian Population (Black Or African American Alone)
+         Universe:  Black or African American 16 Years Old In Civilian Labor Force
+         Name:      T44
+         Variables:
+            T044_001:   Black or African American 16 Years Old In Civilian Labor Force:
+            T044_002:      Employed
+            T044_003:      Unemployed
+
+
+      6. Unemployment Rate For Civilian Population (American Indian, Eskimo, and Aleut)
+         Universe:  American Indian, Eskimo, and Aleut 16 Years Old In Civilian Labor Force
+         Name:      T45
+         Variables:
+            T045_001:   American Indian, Eskimo, and Aleut 16 Years Old In Civilian Labor Force:
+            T045_002:      Employed
+            T045_003:      Unemployed
+
+
+      7. Unemployment Rate For Civilian Population (Persons Of Spanish Origin)
+         Universe:  Persons Of Spanish Origin 16 Years Old In Civilian Labor Force
+         Name:      T48
+         Variables:
+            T048_001:   Civilian labor force (Spanish Origin):
+            T048_002:      Employed
+            T048_003:      Unemployed
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      Name:           Area Name-Legal/Statistical Area Description (LSAD) Term-Part Indicator
+      QName:          Qualifying Name
+      GISJOIN:        NHGIS GIS Join Field
+      GISJOIN2:       NHGIS GISJoin2 Field
+      SUMLEV:         Summary Level
+      FIPS:           FIPS
+      STATE:          FIPS State Code
+      COUNTY:         FIPS County Code
+      T040_001:       Civilian Population In Labor Force 16 Years And Over
+      T040_002:       Civilian Population In Labor Force 16 Years And Over: Employed
+      T040_003:       Civilian Population In Labor Force 16 Years And Over: Unemployed
+      T041_001:       Civilian Male In Labor Force 16 Years And Over
+      T041_002:       Civilian Male In Labor Force 16 Years And Over: Employed
+      T041_003:       Civilian Male In Labor Force 16 Years And Over: Unemployed
+      T042_001:       Civilian Female In Labor Force 16 Years And Over
+      T042_002:       Civilian Female In Labor Force 16 Years And Over: Employed
+      T042_003:       Civilian Female In Labor Force 16 Years And Over: Unemployed
+      T043_001:       White 16 Years Old In Civilian Labor Force
+      T043_002:       White 16 Years Old In Civilian Labor Force: Employed
+      T043_003:       White 16 Years Old In Civilian Labor Force: Unemployed
+      T044_001:       Black or African American 16 Years Old In Civilian Labor Force
+      T044_002:       Black or African American 16 Years Old In Civilian Labor Force: Employed
+      T044_003:       Black or African American 16 Years Old In Civilian Labor Force: Unemployed
+      T045_001:       American Indian, Eskimo, and Aleut 16 Years Old In Civilian Labor Force
+      T045_002:       American Indian, Eskimo, and Aleut 16 Years Old In Civilian Labor Force: Employed
+      T045_003:       American Indian, Eskimo, and Aleut 16 Years Old In Civilian Labor Force: Unemployed
+      T048_001:       Civilian labor force  (Spanish Origin)
+      T048_002:       Civilian labor force  (Spanish Origin): Employed
+      T048_003:       Civilian labor force  (Spanish Origin): Unemployed
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12774637
+
+If you have any questions contact info@socialexplorer.com

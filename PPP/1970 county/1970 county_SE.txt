@@ -1,0 +1,386 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12756170
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           Census 1970
+Dataset:          Social Explorer Tables (made from Count 4)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      T1
+         Variables:
+            T001_001:   Total Population
+
+
+      2. Population Density (per sq. mile)
+         Universe:  Total Population
+         Name:      T2
+         Variables:
+            T003_002:   Total Population
+            T002_001:   Population Density (per sq. mile)
+            T003_003:   Area Total
+
+
+      3. Age
+         Universe:  Total Population
+         Name:      T7
+         Variables:
+            T007_001:   Total Population:
+            T007_002:      Under 5 years
+            T007_003:      5 to 9 years
+            T007_004:      10 to 14 years
+            T007_005:      15 to 17 years
+            T007_006:      18 to 24 years
+            T007_007:      25 to 34 years
+            T007_008:      35 to 44 years
+            T007_009:      45 to 54 years
+            T007_010:      55 to 64 years
+            T007_011:      65 to 74 years
+            T007_012:      75 years and over
+
+
+      4. Race
+         Universe:  Total Population
+         Name:      T12
+         Variables:
+            T012_001:   Total Population:
+            T012_002:      White
+            T012_003:      Black
+            T012_004:      Some Other Race
+
+
+      5. Spanish Origin or Descent Indicator (15%)
+         Universe:  Total Population (15% sample)
+         Name:      T13
+         Variables:
+            T013_001:   Total Population:
+            T013_002:      Spanish Origin or Descent
+            T013_003:      Not of Spanish Origin or Descent
+
+
+      6. Households By Household Type
+         Universe:  Occupied Households
+         Name:      T14
+         Variables:
+            T014_001:   Total Occupied Households:
+            T014_002:      Husband-wife family
+            T014_003:      Other Family:
+            T014_004:         Other Family with male head
+            T014_005:         Other Family with female head
+            T014_006:      Male primary individual
+            T014_007:      Female primary individual
+
+
+      7. Group Quarters Population By Type of Group Quarters
+         Universe:  Count of Persons in Group Quarters
+         Name:      T20
+         Variables:
+            T020_001:   Count of Persons in Group Quarters:
+            T020_002:      Institutionalized:
+            T020_003:         Inmate of mental hospital
+            T020_004:         Inmate of home for the aged and dependent
+            T020_005:         Inmate of other institution
+            T020_006:      Not Institutionalized:
+            T020_007:         In rooming house
+            T020_008:         In military barracks
+            T020_009:         In college dormitory
+            T020_010:         In other group quarters
+
+
+      8. Educational Attainment for Population 25 Years and Over
+         Universe:  Total Population 25 Years Old and Over
+         Name:      T22
+         Variables:
+            T022_001:   Total Population 25 Years Old and Over:
+            T022_002:      No school years completed (includes nursery and kindergarten)
+            T022_003:      Elementary:
+            T022_004:         1-4 years
+            T022_005:         5-6 years
+            T022_006:         7 years
+            T022_007:         8 years
+            T022_008:      High school:
+            T022_009:         1-3 years
+            T022_010:         4 years
+            T022_011:      College:
+            T022_012:         1-3 years
+            T022_013:         4 years
+            T022_014:         5 years or more
+
+
+      9. Unemployment Rate 
+         Universe:  Civilian Population In Labor Force 16 Years And Over
+         Name:      T56
+         Variables:
+            T056_001:   Population 16 years and over In Civilian labor force:
+            T056_002:      Employed
+            T056_003:      Unemployed
+
+
+      10. Family Income
+          Universe:  Families
+          Name:      T66
+          Variables:
+             T066_001:   Count of Families:
+             T066_002:      Under $1,000 (includes $1-$999, none, and loss)
+             T066_003:      $1,000 - $1,999
+             T066_004:      $2,000 - $2,999
+             T066_005:      $3,000 - $3,999
+             T066_006:      $4,000 - $4,999
+             T066_007:      $5,000 - $5,999
+             T066_008:      $6,000 - $6,999
+             T066_009:      $7,000 - $7,999
+             T066_010:      $8,000 - $8,999
+             T066_011:      $9,000 - $9,999
+             T066_012:      $10,000 - $11,999
+             T066_013:      $12,000 - $14,999
+             T066_014:      $15,000 - $24,999
+             T066_015:      $25,000 - $49,999
+             T066_016:      $50,000 and over
+
+
+      11. Type of Income For Families
+          Universe:  Count of Families With Income
+          Name:      T80
+          Variables:
+             T080_001:   Count of Families With Income:
+             T080_002:      Wage and salary
+             T080_003:      Nonfarm self-employment
+             T080_004:      Farm self-employment
+             T080_005:      Social Security or Railroad Retirement
+             T080_006:      Public assistance or welfare payments
+             T080_007:      All other income
+
+
+      12. Poverty Status For Families
+          Universe:  Count of Families
+          Name:      T88
+          Variables:
+             T088_001:   Families:
+             T088_002:      Above poverty level
+             T088_003:      Below poverty level
+
+
+      13. Poverty Status For Children Under 18
+          Universe:  Population Under 18 Years of Age for whom poverty status is determined
+          Name:      T99
+          Variables:
+             T099_001:   Count of Related Children Under 18 for whom poverty status is determined:
+             T099_002:      Above poverty level
+             T099_003:      Below poverty level
+
+
+      14. Housing Units
+          Universe:  Housing units
+          Name:      T107
+          Variables:
+             T107_001:   Total Housing units
+
+
+      15. Tenure
+          Universe:  Occupied Housing Units
+          Name:      T108
+          Variables:
+             T108_001:   Total occupied:
+             T108_002:      Owner occupied
+             T108_003:      Renter occupied
+
+
+      16. Value For Owner Occupied Housing Units
+          Universe:  Count of Units for Which Value is Tabulated
+          Name:      T119
+          Variables:
+             T119_001:   Count of Units for Which Value is Tabulated:
+             T119_002:      Less than $5,000
+             T119_003:      $5,000 - $7,499
+             T119_004:      $7,500 - $9,999
+             T119_005:      $10,000 - $12,499
+             T119_006:      $12,500 - $14,999
+             T119_007:      $15,000 - $17,499
+             T119_008:      $17,500 - $19,999
+             T119_009:      $20,000 - $24,999
+             T119_010:      $25,000 - $34,999
+             T119_011:      $35,000 - $49,999
+             T119_012:      $50,000 or more
+
+
+      17. Average Housing Unit Value
+          Universe:  Owner Occupied Housing Units for which value is tabulated
+          Name:      T122
+          Variables:
+             T122_001:   Count of Owner Occupied Housing Units For Which Value is Determined
+             T122_002:      Average Value of Owner Occupied Housing Unit
+
+
+      18. Nativity By Citizenship Status (5%)
+          Universe:  Total Population
+          Name:      T132
+          Variables:
+             T132_001:   Count of Persons:
+             T132_002:      Native
+             T132_003:      Foreign born:
+             T132_004:         Naturalized
+             T132_005:         Alien
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      State:          State FIPS code
+      METROARA:       SMSA FIPS code
+      COUNTY:         County FIPS code
+      PLACE:          Place FIPS code
+      URBANARA:       Urban Area FIPS code
+      T001_001:       Total Population
+      T003_002:       Total Population
+      T002_001:       Population Density (per sq. mile)
+      T003_003:       Area Total
+      T007_001:       Total Population
+      T007_002:       Under 5 years
+      T007_003:       5 to 9 years
+      T007_004:       10 to 14 years
+      T007_005:       15 to 17 years
+      T007_006:       18 to 24 years
+      T007_007:       25 to 34 years
+      T007_008:       35 to 44 years
+      T007_009:       45 to 54 years
+      T007_010:       55 to 64 years
+      T007_011:       65 to 74 years
+      T007_012:       75 years and over
+      T012_001:       Total Population
+      T012_002:       White
+      T012_003:       Black
+      T012_004:       Some Other Race
+      T013_001:       Total Population
+      T013_002:       Spanish Origin or Descent
+      T013_003:       Not of Spanish Origin or Descent
+      T014_001:       Total Occupied Households
+      T014_002:       Total Occupied Households: Husband-wife family
+      T014_003:       Total Occupied Households: Other Family
+      T014_004:       Total Occupied Households: Other Family: Other Family with male head
+      T014_005:       Total Occupied Households: Other Family: Other Family with female head
+      T014_006:       Total Occupied Households: Male primary individual
+      T014_007:       Total Occupied Households: Female primary individual
+      T020_001:       Count of Persons in Group Quarters
+      T020_002:       Count of Persons in Group Quarters: Institutionalized
+      T020_003:       Count of Persons in Group Quarters: Institutionalized: Inmate of mental hospital
+      T020_004:       Count of Persons in Group Quarters: Institutionalized: Inmate of home for the aged and dependent
+      T020_005:       Count of Persons in Group Quarters: Institutionalized: Inmate of other institution
+      T020_006:       Count of Persons in Group Quarters: Not Institutionalized
+      T020_007:       Count of Persons in Group Quarters: Not Institutionalized: In rooming house
+      T020_008:       Count of Persons in Group Quarters: Not Institutionalized: In military barracks
+      T020_009:       Count of Persons in Group Quarters: Not Institutionalized: In college dormitory
+      T020_010:       Count of Persons in Group Quarters: Not Institutionalized: In other group quarters
+      T022_001:       Total Population 25 Years Old and Over
+      T022_002:       Total Population 25 Years Old and Over: No school years completed (includes nursery and kindergarten)
+      T022_003:       Total Population 25 Years Old and Over: Elementary
+      T022_004:       Total Population 25 Years Old and Over: Elementary: 1-4 years
+      T022_005:       Total Population 25 Years Old and Over: Elementary: 5-6 years
+      T022_006:       Total Population 25 Years Old and Over: Elementary: 7 years
+      T022_007:       Total Population 25 Years Old and Over: Elementary: 8 years
+      T022_008:       Total Population 25 Years Old and Over: High school
+      T022_009:       Total Population 25 Years Old and Over: High school: 1-3 years
+      T022_010:       Total Population 25 Years Old and Over: High school: 4 years
+      T022_011:       Total Population 25 Years Old and Over: College
+      T022_012:       Total Population 25 Years Old and Over: College: 1-3 years
+      T022_013:       Total Population 25 Years Old and Over: College: 4 years
+      T022_014:       Total Population 25 Years Old and Over: College: 5 years or more
+      T056_001:       Population 16 years and over In Civilian labor force
+      T056_002:       Population 16 years and over In Civilian labor force: Employed
+      T056_003:       Population 16 years and over In Civilian labor force: Unemployed
+      T066_001:       Count of Families
+      T066_002:       Count of Families: Under $1,000 (includes $1-$999, none, and loss)
+      T066_003:       Count of Families: $1,000 - $1,999
+      T066_004:       Count of Families: $2,000 - $2,999
+      T066_005:       Count of Families: $3,000 - $3,999
+      T066_006:       Count of Families: $4,000 - $4,999
+      T066_007:       Count of Families: $5,000 - $5,999
+      T066_008:       Count of Families: $6,000 - $6,999
+      T066_009:       Count of Families: $7,000 - $7,999
+      T066_010:       Count of Families: $8,000 - $8,999
+      T066_011:       Count of Families: $9,000 - $9,999
+      T066_012:       Count of Families: $10,000 - $11,999
+      T066_013:       Count of Families: $12,000 - $14,999
+      T066_014:       Count of Families: $15,000 - $24,999
+      T066_015:       Count of Families: $25,000 - $49,999
+      T066_016:       Count of Families: $50,000 and over
+      T080_001:       Count of Families With Income
+      T080_002:       Count of Families With Income: Wage and salary
+      T080_003:       Count of Families With Income: Nonfarm self-employment
+      T080_004:       Count of Families With Income: Farm self-employment
+      T080_005:       Count of Families With Income: Social Security or Railroad Retirement
+      T080_006:       Count of Families With Income: Public assistance or welfare payments
+      T080_007:       Count of Families With Income: All other income
+      T088_001:       Families
+      T088_002:       Families: Above poverty level
+      T088_003:       Families: Below poverty level
+      T099_001:       Count of Related Children Under 18 for whom poverty status is determined
+      T099_002:       Count of Related Children Under 18 for whom poverty status is determined: Above poverty level
+      T099_003:       Count of Related Children Under 18 for whom poverty status is determined: Below poverty level
+      T107_001:       Total Housing units
+      T108_001:       Total occupied
+      T108_002:       Total occupied: Owner occupied
+      T108_003:       Total occupied: Renter occupied
+      T119_001:       Count of Units for Which Value is Tabulated
+      T119_002:       Count of Units for Which Value is Tabulated: Less than $5,000
+      T119_003:       Count of Units for Which Value is Tabulated: $5,000 - $7,499
+      T119_004:       Count of Units for Which Value is Tabulated: $7,500 - $9,999
+      T119_005:       Count of Units for Which Value is Tabulated: $10,000 - $12,499
+      T119_006:       Count of Units for Which Value is Tabulated: $12,500 - $14,999
+      T119_007:       Count of Units for Which Value is Tabulated: $15,000 - $17,499
+      T119_008:       Count of Units for Which Value is Tabulated: $17,500 - $19,999
+      T119_009:       Count of Units for Which Value is Tabulated: $20,000 - $24,999
+      T119_010:       Count of Units for Which Value is Tabulated: $25,000 - $34,999
+      T119_011:       Count of Units for Which Value is Tabulated: $35,000 - $49,999
+      T119_012:       Count of Units for Which Value is Tabulated: $50,000 or more
+      T122_001:       Count of Owner Occupied Housing Units For Which Value is Determined
+      T122_002:       Average Value of Owner Occupied Housing Unit
+      T132_001:       Count of Persons
+      T132_002:       Count of Persons: Native
+      T132_003:       Count of Persons: Foreign born
+      T132_004:       Count of Persons: Foreign born: Naturalized
+      T132_005:       Count of Persons: Foreign born: Alien
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2021
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12756170
+
+If you have any questions contact info@socialexplorer.com

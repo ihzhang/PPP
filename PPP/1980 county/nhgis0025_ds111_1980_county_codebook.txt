@@ -1,0 +1,173 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0025_ds111_1980_county'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             1980
+Geographic level: County (by State)
+Dataset:          1980 Census: STF 4Pb - Sample-Based Detailed Population Data with Race/Ethnicity Breakdown
+   NHGIS code:    1980_STF4Pb
+   NHGIS ID:      ds111
+Breakdown(s):     Geographic Subarea:
+                     Total area (0000)
+                  Race/Ethnicity:
+                     All races (00)
+ 
+Tables:
+ 
+1. Type of Group Quarters
+   Universe:    Persons in Group Quarters
+   Source code: NTPB24
+   NHGIS code:  DXD
+ 
+2. Sex by Age by Years of School Completed
+   Universe:    Persons 25 Years and Over
+   Source code: NTPB48
+   NHGIS code:  DX4
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        SMSAA:       Standard Metropolitan Statistical Area Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        CTY_SUBA:    County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        SCSAA:       Standard Consolidated Statistical Area Code
+        URB_AREAA:   Urban Area Code
+        CDA:         Congressional District Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        ZIPA:        5-Digit Zip Code Code
+        AREANAME:    Area Name
+ 
+Breakdown:
+    Geographic Subarea: Total area (0000)
+    Race/Ethnicity: All races (00)
+ 
+    Table 1:     Type of Group Quarters
+    Universe:    Persons in Group Quarters
+    Source code: NTPB24
+    NHGIS code:  DXD
+        DXD001:      Inmate of mental hospital
+        DXD002:      Inmate of home for the aged
+        DXD003:      Inmate of correctional institution
+        DXD004:      Inmate of other institution
+        DXD005:      In military quarters
+        DXD006:      In college dormitory
+        DXD007:      Other in group quarters
+ 
+    Table 2:     Sex by Age by Years of School Completed
+    Universe:    Persons 25 Years and Over
+    Source code: NTPB48
+    NHGIS code:  DX4
+        DX4001:      Male >> 25 to 44 years old >> Elementary (0 to 8 years)
+        DX4002:      Male >> 25 to 44 years old >> High School: 1 to 3 years
+        DX4003:      Male >> 25 to 44 years old >> High School: 4 years
+        DX4004:      Male >> 25 to 44 years old >> College: 1 to 3 years
+        DX4005:      Male >> 25 to 44 years old >> College: 4 or more years
+        DX4006:      Male >> 45 to 64 years old >> Elementary (0 to 8 years)
+        DX4007:      Male >> 45 to 64 years old >> High School: 1 to 3 years
+        DX4008:      Male >> 45 to 64 years old >> High School: 4 years
+        DX4009:      Male >> 45 to 64 years old >> College: 1 to 3 years
+        DX4010:      Male >> 45 to 64 years old >> College: 4 or more years
+        DX4011:      Male >> 65 years old and over >> Elementary (0 to 8 years)
+        DX4012:      Male >> 65 years old and over >> High School: 1 to 3 years
+        DX4013:      Male >> 65 years old and over >> High School: 4 years
+        DX4014:      Male >> 65 years old and over >> College: 1 to 3 years
+        DX4015:      Male >> 65 years old and over >> College: 4 or more years
+        DX4016:      Female >> 25 to 44 years old >> Elementary (0 to 8 years)
+        DX4017:      Female >> 25 to 44 years old >> High School: 1 to 3 years
+        DX4018:      Female >> 25 to 44 years old >> High School: 4 years
+        DX4019:      Female >> 25 to 44 years old >> College: 1 to 3 years
+        DX4020:      Female >> 25 to 44 years old >> College: 4 or more years
+        DX4021:      Female >> 45 to 64 years old >> Elementary (0 to 8 years)
+        DX4022:      Female >> 45 to 64 years old >> High School: 1 to 3 years
+        DX4023:      Female >> 45 to 64 years old >> High School: 4 years
+        DX4024:      Female >> 45 to 64 years old >> College: 1 to 3 years
+        DX4025:      Female >> 45 to 64 years old >> College: 4 or more years
+        DX4026:      Female >> 65 years old and over >> Elementary (0 to 8 years)
+        DX4027:      Female >> 65 years old and over >> High School: 1 to 3 years
+        DX4028:      Female >> 65 years old and over >> High School: 4 years
+        DX4029:      Female >> 65 years old and over >> College: 1 to 3 years
+        DX4030:      Female >> 65 years old and over >> College: 4 or more years
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* REDISTRIBUTION: You will not redistribute the data without permission.
+
+  You may publish a subset of the data to meet journal requirements for accessing 
+  data related to a particular publication. Contact us for permission for any other 
+  redistribution; we will consider requests for free and commercial redistribution.
+
+* CITATION: You will cite NHGIS appropriately.
+
+    * Publications and research reports employing NHGIS data (either tabular or GIS) 
+      should include the following citation:
+
+        Steven Manson, Jonathan Schroeder, David Van Riper, Tracy Kugler, and Steven Ruggles. 
+        IPUMS National Historical Geographic Information System: Version 15.0 
+        [dataset]. Minneapolis, MN: IPUMS. 2020. 
+        http://doi.org/10.18128/D050.V15.0
+
+    * Publications and research reports employing school attendance areas data 
+      (either tabular or GIS) must cite it appropriately. The citation should 
+      include the following:
+
+        The College of William and Mary and the Minnesota Population Center.
+        School Attendance Boundary Information System (SABINS): Version 1.0.
+        Minneapolis, MN: University of Minnesota 2011.
+
+    * For policy briefs, online resources, or articles in the popular press, we 
+      recommend that you cite the use of NHGIS data as follows:
+
+        IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+    * If possible, citations involving school attendance areas should also include
+      the URL for the SABINS site:
+
+        http://www.sabinsdata.org/.
+
+These terms of use are a legally binding agreement. You can use the data only in 
+accordance with these terms, and any other use is a violation of the agreement. 
+Violations may result in revocation of the agreement and prohibition from using other 
+IPUMS data. If IPUMS or our partners are harmed from your violation, you are 
+responsible for all damages, including reasonable attorney's fees and expenses.
+        
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+
+Send electronic material to: nhgis@umn.edu
+
+Printed matter should be sent to:
+
+    IPUMS NHGIS
+    Institute for Social Research and Data Innovation
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
